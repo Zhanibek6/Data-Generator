@@ -4,13 +4,15 @@ import writer
 import general
 import mobile
 import datetime
-
+from faker import Faker
 #   An alphanumeric code generator
 
 
 '''
 Here we have info about three plans, with their names, prices, minutes, etc...
 '''
+
+fake = Faker()
 
 
 def generate_internet_plan():
@@ -44,10 +46,21 @@ def generate_internet_plan():
     return [name, price, mb, minute,  date]
 
 
+plan = generate_internet_plan()
+
+
 def generate_output():
     numeric_id = general.generate_id()
-    plan = generate_internet_plan()
-    internet_plan = [numeric_id, plan[0], plan[1], plan[2], plan[3], expiration_date, plan[4]]
     contract_date = fake.date_between(start_date=plan[4], end_date='now')
     expiration_date = mobile.fake.date_between(start_date=contract_date, end_date='now')
+    internet_plan = [numeric_id, plan[0], plan[1], plan[2], plan[3], expiration_date, plan[4]]
     writer.export_data(internet_plan, "output/internet_plans.csv")
+
+
+def client_output():
+    numeric_id = general.generate_id()
+    pesel = general.generate_pesel(fake.date_of_birth())
+    contract = fake.date_between(start_date=plan[4], end_date='now')
+    permanence = fake.date_between(start_date=contract, end_date='now')
+    client_mobile = [numeric_id, pesel, contract, permanence]
+    writer.export_data(client_mobile, "output/client_int.csv")

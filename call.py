@@ -28,6 +28,6 @@ def generate_output():
                         call[0],
                         call[1],
                         call[2],
-                        call[3]], "calls.csv")
+                        call[3]], "output/calls.csv")
 
 
