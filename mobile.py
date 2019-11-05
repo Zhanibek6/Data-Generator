@@ -50,7 +50,7 @@ plan = generate_plan()
 def generate_output():
     numeric_id = general.generate_id()
     expiration_date = fake.date_between(start_date=plan[4], end_date='now')
-    writer.export_data([numeric_id, plan[0], plan[1], plan[2], expiration_date, plan[3]], "output/mobile_plans.csv")
+    writer.export_data([numeric_id, plan[0], plan[1], plan[2], plan[3], expiration_date, plan[4]], "output/mobile_plans.csv")
 
 
 def client_output():

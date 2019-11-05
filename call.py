@@ -19,15 +19,18 @@ def generate_call(launch_date):  # This isn't finished, the problem is, that we 
 
 
 def generate_output():
+    deps = []
+    writer.read("output/departments.csv", deps)
     pesel = general.generate_pesel(the_date)
     call_id = general.generate_id()
     call = generate_call(the_date)
     writer.export_data([call_id,
                         pesel,
-                        "Here should be department id",
+                        deps[random.randint(1, 5)][0],
+                        general.generate_pesel(fake.date_of_birth),
                         call[0],
                         call[1],
-                        call[2],
-                        call[3]], "output/calls.csv")
+                        call[3]],
+                       "output/calls.csv")
 
 

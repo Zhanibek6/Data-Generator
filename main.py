@@ -5,6 +5,7 @@ import datetime
 import writer
 import call
 import internet
+import departments
 
 
 def divide(name):
@@ -16,14 +17,12 @@ def divide(name):
 
 
 def main():
-    for i in range(2):
-        client.generate_output()
-        call.generate_output()
-        internet.generate_output()
-        mobile.generate_output()
-        mobile.client_output()
-        internet.client_output()
+    client.generate_output()
+    call.generate_output()
+    internet.generate_output()
+    internet.client_output()
+    mobile.generate_output()
+    mobile.client_output()
 
 
 main()
-

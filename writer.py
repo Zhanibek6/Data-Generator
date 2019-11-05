@@ -7,7 +7,13 @@ later can be opened in csv file
 
 
 def export_data(rows, filename):
-    with open(filename, "a") as csvfile:
+    with open(filename, "a", newline='') as csvfile:
         csvwriter = csv.writer(csvfile)
         csvwriter.writerow(rows)
 
+
+def read(filename, array):
+    with open(filename, "r") as csvfile:
+        csvreader = csv.reader(csvfile)
+        for row in csvreader:
+            array.append(row)

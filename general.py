@@ -1,5 +1,8 @@
 import random
 import string
+from faker import Faker
+
+fake = Faker()
 
 
 def generate_id():
@@ -9,10 +12,10 @@ def generate_id():
 
 def generate_pesel(bday):
     number = ""
-    year = bday.year
+    year = fake.year()
     year_str = str(year)[:-2]
-    month = str(bday.month)
-    day = str(bday.day)
+    month = fake.month()
+    day = str(random.randint(1, 31))
     number.join(year_str + month + day)
     for i in range(11):
         number = number + str(random.randint(1, 9))

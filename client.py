@@ -37,3 +37,4 @@ def generate_output():
                    person["residence"].replace("\n", " "),
                    generate_phone("pl")]
     writer.export_data(person_rows, "output/client.csv")
+
