@@ -47,6 +47,7 @@ def generate_internet_plan():
 
 
 plan = generate_internet_plan()
+first = datetime.date(2018, 12, 31)
 
 
 def generate_output():

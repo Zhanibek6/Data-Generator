@@ -1,11 +1,7 @@
-import random
 import client
 import mobile
-import datetime
-import writer
 import call
 import internet
-import departments
 
 
 def divide(name):
@@ -25,4 +21,5 @@ def main():
     mobile.client_output()
 
 
-main()
+for i in range(100):
+    main()

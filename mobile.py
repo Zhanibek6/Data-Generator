@@ -45,6 +45,7 @@ def generate_plan():
 
 
 plan = generate_plan()
+first = datetime.date(2018, 10, 31)
 
 
 def generate_output():

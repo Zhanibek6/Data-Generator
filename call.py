@@ -4,9 +4,11 @@ import datetime
 import general
 import writer
 from faker import Faker
+import operators
 
 fake = Faker()
 the_date = datetime.date(2016, 6, 6)
+first = datetime.date(2018, 10, 31)
 
 
 def generate_call(launch_date):  # This isn't finished, the problem is, that we need to store the date when was call
@@ -27,7 +29,7 @@ def generate_output():
     writer.export_data([call_id,
                         pesel,
                         deps[random.randint(1, 5)][0],
-                        general.generate_pesel(fake.date_of_birth),
+                        operators.import_operator(),
                         call[0],
                         call[1],
                         call[3]],

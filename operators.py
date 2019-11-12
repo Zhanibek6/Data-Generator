@@ -21,8 +21,12 @@ def generate_operator():
     return operator
 
 
-'''
-writer.export_data("12314153324234", "operators.csv")
-for i in range(30):
-    writer.export_data(general.generate_pesel(fake.date_of_birth()), "operators.csv")
-'''
+def new_operators(amount):
+    for i in range(amount):
+        writer.export_data(generate_operator(), "output/operators.csv")
+
+
+def import_operator():
+    writer.read("output/operators.csv", operators)
+    return random.choice(operators)[0]
+
