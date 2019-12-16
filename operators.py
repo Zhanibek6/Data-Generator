@@ -31,4 +31,4 @@ def import_operator():
     return random.choice(operators)[0]
 
 
-new_operators(10)
+new_operators(100)

@@ -65,9 +65,23 @@ def client_output():
     contract = fake.date_between(start_date=plan[3], end_date='now')
     permanence = fake.date_between(start_date=contract, end_date='now')
     expiration = fake.date_between(start_date=permanence, end_date='now')
-    client_mobile = [numeric_id, i_id, contract, permanence, expiration, plan[2], plan[4]]
+    client_mobile = [numeric_id, i_id, contract, permanence, expiration, plan[2], plan[3]]
     writer.export_data(client_mobile, "output/client_int.csv")
 
 
-for i in range(10):
-    generate_output(i)
+def having_mp():
+    import client
+    phone = client.generate_phone()
+    i_id = random.randint(0, 10)
+    cli_id = random.randint(0, 10)
+    writer.get_row("output/internet_plans.csv", i_id)
+    mp = [phone,
+          cli_id,  # The id itself
+          i_id,
+          cli_id + random.randint(1, 10),  # The date
+          cli_id + random.randint(1, 4),
+          random.choice([0, 20, 30, 50, 100]),  # Price
+          random.choice([500, 200, 300, 400]),  # Minutes
+          ]
+    writer.export_data(mp, "output/having_ip.csv")
+

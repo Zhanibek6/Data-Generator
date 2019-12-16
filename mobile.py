@@ -4,6 +4,7 @@ import writer
 import general
 import datetime
 import date
+
 #   An alphanumeric code generator
 
 
@@ -69,9 +70,17 @@ def having_mp():
     import client
     phone = client.generate_phone()
     mb_id = random.randint(0, 10)
+    cli_id = random.randint(0, 10)
     writer.get_row("output/mobile_plans.csv", mb_id)
+    mp = [phone,
+          mb_id,
+          cli_id,  # The id itself
+          cli_id + random.randint(1, 10),  # The date
+          cli_id + random.randint(1, 4),
+          random.choice([0, 20, 30, 50, 100]),  # Price
+          random.choice([500, 200, 300, 400]),  # Minutes
+          random.choice([10, 100, 200])  # Internet
+          ]
+    writer.export_data(mp, "output/having_mp.csv")
 
 
-
-for i in range(10):
-    generate_output(i)

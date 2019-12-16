@@ -2,6 +2,7 @@ import client
 import mobile
 import call
 import internet
+import date
 
 
 def divide(name):
@@ -15,11 +16,18 @@ def divide(name):
 def main(i):
     client.generate_output(i)
     call.generate_output(i)
+    date.generate_date(i)
     internet.generate_output(i)
     internet.client_output()
     mobile.generate_output(i)
     mobile.client_output()
 
-
-for i in range(100):
+'''
+for i in range(2000):
     main(i)
+'''
+
+for i in range(2000):
+    mobile.having_mp()
+    internet.having_mp()
+    call.answer_call(i)

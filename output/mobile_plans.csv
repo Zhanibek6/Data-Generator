@@ -1,72 +1,2001 @@
 mb_id, mb_name, mb_expiration_date, mb_launch_date
-
-0,Essential,2018-12-26,2016-06-06
-1,Magneta Plus,2019-02-08,2018-08-08
-2,Magneta Plus,2019-11-03,2018-08-08
-3,Magneta,2019-03-23,2017-07-07
-4,Magneta Plus,2018-10-17,2018-08-08
-5,Essential,2019-04-07,2016-06-06
-6,Magneta Plus,2019-05-04,2018-08-08
-7,Magneta Plus,2019-04-22,2018-08-08
-8,Magneta,2018-03-17,2017-07-07
-9,Magneta,2019-02-23,2017-07-07
-0,Essential,2019-04-17,2016-06-06
-1,Essential,2016-08-18,2016-06-06
-2,Essential,2016-10-12,2016-06-06
-3,Magneta,2019-06-13,2017-07-07
-4,Magneta,2018-11-12,2017-07-07
-5,Magneta Plus,2019-10-12,2018-08-08
-6,Magneta Plus,2019-08-11,2018-08-08
-7,Magneta,2018-10-20,2017-07-07
-8,Magneta Plus,2019-07-01,2018-08-08
-9,Magneta,2019-01-13,2017-07-07
-0,Essential,2017-06-21,2016-06-06
-1,Magneta,2019-07-13,2017-07-07
-2,Essential,2017-09-18,2016-06-06
-3,Essential,2016-06-09,2016-06-06
-4,Essential,2017-01-26,2016-06-06
-5,Magneta,2018-01-04,2017-07-07
-6,Essential,2018-09-16,2016-06-06
-7,Magneta Plus,2019-08-01,2018-08-08
-8,Magneta,2019-03-01,2017-07-07
-9,Essential,2019-05-14,2016-06-06
-0,Magneta Plus,2019-01-21,2018-08-08
-1,Magneta Plus,2018-09-05,2018-08-08
-2,Magneta,2017-07-25,2017-07-07
-3,Magneta Plus,2019-03-15,2018-08-08
-4,Magneta,2018-11-03,2017-07-07
-5,Essential,2018-10-11,2016-06-06
-6,Magneta Plus,2018-10-10,2018-08-08
-7,Magneta,2019-10-04,2017-07-07
-8,Magneta Plus,2018-08-14,2018-08-08
-9,Essential,2019-02-11,2016-06-06
-0,Magneta Plus,2019-08-10,2018-08-08
-1,Magneta Plus,2019-01-14,2018-08-08
-2,Magneta,2017-08-05,2017-07-07
-3,Magneta,2019-04-04,2017-07-07
-4,Magneta Plus,2019-06-14,2018-08-08
-5,Magneta,2019-10-31,2017-07-07
-6,Essential,2019-07-18,2016-06-06
-7,Magneta Plus,2019-04-23,2018-08-08
-8,Magneta Plus,2019-10-10,2018-08-08
-9,Magneta Plus,2019-07-14,2018-08-08
-0,Essential,2,0
-1,Magneta Plus,5,1
-2,Magneta Plus,7,0
-3,Magneta Plus,5,0
-4,Magneta,4,5
-5,Essential,1,7
-6,Essential,9,3
-7,Essential,3,2
-8,Magneta,4,0
-9,Magneta Plus,0,6
-0,Magneta,0,7
-1,Essential,5,3
-2,Magneta,8,3
-3,Magneta,0,5
-4,Magneta,10,2
-5,Magneta,3,0
-6,Magneta Plus,1,1
-7,Essential,5,10
-8,Magneta,3,5
-9,Magneta Plus,4,9
+0,Magneta,5,0
+1,Essential,3,4
+2,Essential,1,7
+3,Magneta Plus,5,6
+4,Magneta Plus,8,2
+5,Essential,2,2
+6,Magneta,9,3
+7,Magneta,6,6
+8,Essential,1,10
+9,Essential,6,8
+10,Magneta,5,1
+11,Essential,10,0
+12,Magneta Plus,8,8
+13,Magneta,1,4
+14,Magneta Plus,0,3
+15,Magneta,0,1
+16,Essential,7,10
+17,Essential,5,3
+18,Magneta Plus,3,0
+19,Essential,5,8
+20,Essential,2,10
+21,Magneta,6,8
+22,Magneta Plus,7,7
+23,Magneta Plus,2,9
+24,Magneta Plus,5,6
+25,Magneta,0,3
+26,Magneta Plus,4,6
+27,Magneta,1,1
+28,Essential,0,3
+29,Essential,9,1
+30,Magneta Plus,2,2
+31,Magneta Plus,9,2
+32,Essential,6,3
+33,Magneta,2,5
+34,Essential,4,9
+35,Magneta Plus,5,10
+36,Magneta Plus,3,4
+37,Essential,0,4
+38,Magneta,0,3
+39,Magneta,4,5
+40,Essential,7,4
+41,Essential,8,4
+42,Magneta,4,9
+43,Magneta,9,4
+44,Magneta Plus,9,10
+45,Magneta Plus,3,2
+46,Essential,0,0
+47,Magneta,5,2
+48,Magneta,7,1
+49,Magneta Plus,0,7
+50,Magneta,1,8
+51,Magneta,2,1
+52,Essential,6,10
+53,Magneta Plus,7,2
+54,Magneta,7,2
+55,Magneta Plus,9,0
+56,Essential,1,3
+57,Magneta Plus,9,0
+58,Magneta Plus,2,7
+59,Magneta,10,0
+60,Essential,7,3
+61,Magneta Plus,0,3
+62,Magneta Plus,10,9
+63,Essential,3,0
+64,Essential,0,1
+65,Magneta,1,2
+66,Magneta Plus,2,4
+67,Magneta,8,9
+68,Magneta,3,10
+69,Essential,1,4
+70,Magneta,10,4
+71,Magneta,10,9
+72,Magneta,3,7
+73,Magneta,8,1
+74,Magneta,3,6
+75,Magneta,10,3
+76,Essential,0,2
+77,Magneta,9,7
+78,Essential,1,10
+79,Magneta Plus,7,5
+80,Essential,1,10
+81,Magneta Plus,6,3
+82,Essential,8,5
+83,Essential,9,4
+84,Essential,2,4
+85,Magneta Plus,0,4
+86,Magneta Plus,5,9
+87,Essential,9,7
+88,Magneta Plus,3,7
+89,Magneta,10,7
+90,Magneta Plus,6,3
+91,Magneta,5,1
+92,Magneta,3,0
+93,Essential,7,2
+94,Magneta Plus,4,4
+95,Magneta,3,2
+96,Magneta,1,2
+97,Magneta,8,1
+98,Magneta Plus,2,10
+99,Magneta,4,5
+100,Magneta Plus,7,8
+101,Essential,1,5
+102,Magneta Plus,8,10
+103,Essential,5,2
+104,Magneta,5,7
+105,Magneta,1,10
+106,Magneta,8,8
+107,Magneta,3,3
+108,Essential,10,0
+109,Essential,8,0
+110,Essential,1,9
+111,Magneta Plus,6,8
+112,Essential,5,5
+113,Magneta,10,9
+114,Magneta,5,4
+115,Magneta Plus,6,10
+116,Magneta Plus,1,1
+117,Magneta Plus,8,8
+118,Magneta,5,9
+119,Magneta,6,0
+120,Magneta Plus,6,5
+121,Essential,10,7
+122,Magneta,4,9
+123,Magneta Plus,6,7
+124,Magneta,7,7
+125,Magneta Plus,4,6
+126,Essential,4,10
+127,Essential,5,10
+128,Essential,7,8
+129,Essential,3,0
+130,Essential,3,8
+131,Magneta Plus,5,1
+132,Essential,4,2
+133,Magneta Plus,6,5
+134,Magneta,5,5
+135,Magneta,3,10
+136,Magneta Plus,1,7
+137,Magneta Plus,7,3
+138,Magneta,2,0
+139,Essential,0,0
+140,Magneta,1,10
+141,Magneta,0,1
+142,Magneta Plus,10,2
+143,Magneta,2,9
+144,Magneta Plus,9,3
+145,Magneta,8,5
+146,Magneta,1,2
+147,Magneta,2,6
+148,Magneta Plus,4,9
+149,Essential,7,0
+150,Magneta Plus,3,3
+151,Magneta Plus,4,1
+152,Magneta Plus,9,2
+153,Magneta Plus,7,6
+154,Magneta,10,3
+155,Magneta Plus,0,5
+156,Magneta,1,6
+157,Essential,0,0
+158,Magneta,10,5
+159,Magneta,4,2
+160,Magneta,4,1
+161,Magneta Plus,8,10
+162,Essential,2,7
+163,Essential,2,6
+164,Essential,8,5
+165,Essential,7,10
+166,Magneta,5,10
+167,Magneta,3,2
+168,Magneta Plus,5,5
+169,Essential,3,9
+170,Magneta Plus,4,7
+171,Magneta Plus,1,4
+172,Magneta Plus,5,0
+173,Essential,0,1
+174,Essential,8,8
+175,Magneta,9,7
+176,Magneta,6,10
+177,Magneta Plus,6,10
+178,Essential,1,7
+179,Magneta Plus,7,0
+180,Magneta Plus,6,10
+181,Essential,10,2
+182,Magneta,3,8
+183,Magneta,5,4
+184,Magneta Plus,9,3
+185,Magneta,0,6
+186,Essential,8,7
+187,Magneta,10,5
+188,Essential,10,6
+189,Essential,10,8
+190,Essential,8,6
+191,Magneta Plus,8,3
+192,Magneta,1,8
+193,Magneta,2,10
+194,Magneta Plus,9,0
+195,Magneta Plus,3,1
+196,Magneta Plus,4,8
+197,Essential,5,10
+198,Magneta,1,5
+199,Magneta Plus,10,2
+200,Essential,0,7
+201,Magneta Plus,8,9
+202,Magneta Plus,10,9
+203,Magneta,7,10
+204,Essential,0,10
+205,Magneta Plus,4,2
+206,Magneta Plus,9,1
+207,Essential,4,9
+208,Magneta,8,0
+209,Magneta,0,2
+210,Magneta,5,1
+211,Magneta,4,3
+212,Essential,3,9
+213,Magneta Plus,6,2
+214,Magneta,1,9
+215,Magneta Plus,6,5
+216,Magneta,3,8
+217,Essential,6,7
+218,Magneta Plus,6,1
+219,Magneta Plus,6,3
+220,Magneta,3,8
+221,Magneta Plus,0,6
+222,Magneta,5,7
+223,Magneta Plus,7,10
+224,Magneta Plus,6,7
+225,Magneta,8,4
+226,Essential,3,1
+227,Magneta Plus,8,0
+228,Essential,4,6
+229,Essential,0,2
+230,Magneta,7,6
+231,Magneta,8,4
+232,Magneta,0,1
+233,Essential,6,2
+234,Essential,5,1
+235,Essential,3,7
+236,Magneta,1,3
+237,Essential,9,5
+238,Essential,10,3
+239,Magneta Plus,0,4
+240,Magneta,2,6
+241,Magneta,8,9
+242,Magneta Plus,6,4
+243,Magneta Plus,0,1
+244,Magneta,10,0
+245,Essential,8,5
+246,Magneta,2,10
+247,Essential,6,8
+248,Magneta Plus,2,4
+249,Magneta,0,4
+250,Essential,5,5
+251,Magneta,3,2
+252,Essential,6,4
+253,Essential,6,4
+254,Magneta,5,7
+255,Magneta,5,9
+256,Magneta Plus,0,1
+257,Essential,8,2
+258,Essential,0,3
+259,Magneta Plus,7,9
+260,Magneta Plus,0,3
+261,Magneta,6,0
+262,Essential,7,2
+263,Magneta Plus,4,4
+264,Essential,4,7
+265,Magneta,2,7
+266,Magneta,10,2
+267,Essential,1,6
+268,Essential,7,2
+269,Magneta Plus,9,8
+270,Magneta,2,9
+271,Essential,8,8
+272,Essential,8,1
+273,Magneta Plus,6,2
+274,Magneta Plus,8,3
+275,Essential,10,2
+276,Magneta Plus,4,3
+277,Essential,10,0
+278,Essential,6,1
+279,Magneta,0,7
+280,Magneta,8,5
+281,Magneta,1,9
+282,Magneta Plus,4,5
+283,Essential,6,2
+284,Magneta,9,6
+285,Essential,6,8
+286,Essential,4,3
+287,Magneta Plus,8,1
+288,Essential,3,5
+289,Magneta,1,10
+290,Magneta,9,4
+291,Magneta Plus,8,0
+292,Magneta Plus,7,10
+293,Magneta Plus,1,10
+294,Essential,2,9
+295,Magneta Plus,6,7
+296,Magneta Plus,2,2
+297,Magneta Plus,2,8
+298,Magneta,2,6
+299,Magneta Plus,10,7
+300,Magneta,4,10
+301,Essential,10,6
+302,Magneta,4,0
+303,Magneta Plus,6,4
+304,Essential,1,3
+305,Magneta Plus,9,5
+306,Essential,6,8
+307,Magneta,6,4
+308,Magneta,8,3
+309,Magneta Plus,5,6
+310,Magneta Plus,2,6
+311,Essential,9,10
+312,Essential,9,5
+313,Essential,4,1
+314,Magneta Plus,10,4
+315,Essential,2,2
+316,Magneta,5,10
+317,Essential,10,7
+318,Magneta,3,0
+319,Essential,1,3
+320,Magneta Plus,9,3
+321,Essential,2,1
+322,Essential,0,1
+323,Magneta,0,1
+324,Magneta,4,4
+325,Essential,4,9
+326,Magneta,2,3
+327,Magneta,4,5
+328,Magneta Plus,8,0
+329,Magneta Plus,9,1
+330,Magneta,10,8
+331,Magneta Plus,2,3
+332,Essential,6,2
+333,Magneta Plus,4,6
+334,Essential,9,10
+335,Magneta Plus,9,5
+336,Magneta Plus,4,7
+337,Essential,10,2
+338,Magneta Plus,10,2
+339,Magneta Plus,8,7
+340,Magneta,1,7
+341,Magneta Plus,6,7
+342,Magneta Plus,9,4
+343,Essential,9,9
+344,Magneta Plus,1,0
+345,Essential,6,6
+346,Magneta,6,6
+347,Magneta,9,3
+348,Magneta Plus,1,3
+349,Essential,10,4
+350,Essential,10,0
+351,Essential,0,8
+352,Magneta Plus,0,2
+353,Magneta,6,6
+354,Essential,7,5
+355,Essential,3,8
+356,Essential,1,6
+357,Magneta Plus,2,4
+358,Essential,4,9
+359,Essential,8,6
+360,Magneta,6,10
+361,Magneta,5,2
+362,Essential,8,0
+363,Essential,9,2
+364,Magneta Plus,3,1
+365,Magneta Plus,9,1
+366,Magneta,6,7
+367,Essential,9,2
+368,Magneta,2,1
+369,Essential,10,6
+370,Magneta Plus,9,1
+371,Magneta Plus,9,10
+372,Essential,3,2
+373,Magneta,1,6
+374,Magneta,8,4
+375,Magneta,3,10
+376,Essential,3,5
+377,Magneta Plus,2,6
+378,Magneta,10,9
+379,Magneta,6,3
+380,Magneta,6,0
+381,Magneta Plus,0,4
+382,Magneta,0,6
+383,Magneta Plus,10,0
+384,Magneta,4,1
+385,Essential,0,1
+386,Magneta,0,8
+387,Magneta Plus,2,3
+388,Essential,3,6
+389,Magneta Plus,3,5
+390,Magneta Plus,0,4
+391,Essential,6,4
+392,Magneta Plus,3,9
+393,Magneta,0,0
+394,Magneta Plus,7,6
+395,Magneta Plus,9,10
+396,Magneta Plus,2,2
+397,Magneta,9,10
+398,Essential,5,9
+399,Magneta,4,8
+400,Essential,1,6
+401,Magneta Plus,5,10
+402,Magneta,4,4
+403,Essential,6,7
+404,Essential,2,1
+405,Essential,8,7
+406,Essential,10,8
+407,Essential,1,0
+408,Essential,3,8
+409,Magneta,3,9
+410,Magneta,4,6
+411,Magneta Plus,6,8
+412,Magneta,5,1
+413,Magneta,5,10
+414,Magneta Plus,1,10
+415,Magneta Plus,3,9
+416,Magneta Plus,1,0
+417,Magneta,3,7
+418,Magneta,4,2
+419,Essential,9,10
+420,Essential,2,3
+421,Magneta,2,5
+422,Essential,8,1
+423,Essential,0,1
+424,Magneta,0,5
+425,Essential,7,4
+426,Magneta Plus,9,7
+427,Magneta Plus,7,5
+428,Essential,0,2
+429,Magneta Plus,8,2
+430,Magneta,6,9
+431,Essential,3,6
+432,Magneta,7,8
+433,Magneta Plus,7,8
+434,Magneta,10,8
+435,Magneta Plus,5,8
+436,Essential,3,2
+437,Magneta,7,5
+438,Magneta,5,4
+439,Magneta,1,9
+440,Essential,5,8
+441,Magneta,4,3
+442,Essential,9,4
+443,Magneta,4,7
+444,Essential,8,9
+445,Magneta,3,6
+446,Magneta Plus,9,8
+447,Essential,1,6
+448,Magneta Plus,3,9
+449,Essential,3,10
+450,Magneta,7,0
+451,Essential,8,3
+452,Magneta Plus,9,1
+453,Magneta,9,7
+454,Essential,6,2
+455,Essential,8,1
+456,Essential,1,6
+457,Magneta,3,1
+458,Essential,3,2
+459,Magneta Plus,2,3
+460,Essential,6,1
+461,Magneta,2,3
+462,Essential,6,0
+463,Essential,9,5
+464,Essential,9,7
+465,Essential,6,8
+466,Essential,0,2
+467,Magneta Plus,0,8
+468,Magneta,4,9
+469,Magneta Plus,1,2
+470,Essential,1,5
+471,Essential,8,5
+472,Magneta,2,8
+473,Magneta Plus,9,8
+474,Essential,2,10
+475,Magneta,5,5
+476,Magneta,6,8
+477,Magneta Plus,10,5
+478,Magneta Plus,1,3
+479,Essential,8,10
+480,Essential,10,0
+481,Magneta Plus,10,2
+482,Magneta Plus,5,5
+483,Essential,4,7
+484,Magneta,6,9
+485,Essential,4,0
+486,Magneta,7,2
+487,Magneta Plus,4,2
+488,Magneta,6,6
+489,Essential,1,9
+490,Magneta,10,3
+491,Magneta Plus,9,7
+492,Essential,1,9
+493,Essential,8,9
+494,Magneta Plus,7,10
+495,Magneta,9,3
+496,Magneta,6,2
+497,Magneta,6,10
+498,Magneta Plus,5,7
+499,Magneta,8,6
+500,Magneta Plus,1,8
+501,Magneta Plus,8,3
+502,Essential,5,3
+503,Magneta,5,3
+504,Magneta Plus,1,5
+505,Magneta Plus,7,5
+506,Essential,9,9
+507,Magneta,4,5
+508,Magneta Plus,9,0
+509,Essential,4,6
+510,Magneta,0,0
+511,Magneta Plus,10,0
+512,Essential,1,0
+513,Magneta Plus,5,7
+514,Magneta,9,6
+515,Magneta,5,3
+516,Essential,10,3
+517,Magneta Plus,2,6
+518,Essential,4,9
+519,Magneta,10,2
+520,Magneta,2,2
+521,Magneta Plus,9,5
+522,Essential,5,5
+523,Essential,0,8
+524,Magneta Plus,3,9
+525,Magneta Plus,10,9
+526,Essential,4,1
+527,Essential,0,8
+528,Magneta Plus,2,4
+529,Essential,5,9
+530,Essential,5,1
+531,Magneta,8,9
+532,Magneta,1,5
+533,Magneta Plus,0,8
+534,Magneta Plus,9,1
+535,Magneta Plus,4,2
+536,Magneta Plus,2,9
+537,Magneta,3,9
+538,Magneta,2,8
+539,Magneta,4,4
+540,Essential,8,2
+541,Magneta Plus,3,6
+542,Magneta Plus,4,6
+543,Magneta,4,6
+544,Magneta Plus,6,4
+545,Magneta Plus,7,5
+546,Magneta Plus,9,2
+547,Magneta Plus,8,9
+548,Magneta,9,9
+549,Essential,9,4
+550,Magneta Plus,1,9
+551,Essential,0,1
+552,Essential,10,0
+553,Magneta,2,8
+554,Essential,1,7
+555,Essential,10,5
+556,Essential,6,5
+557,Essential,7,6
+558,Magneta Plus,9,7
+559,Magneta,1,6
+560,Magneta,6,0
+561,Magneta Plus,2,8
+562,Magneta Plus,2,8
+563,Magneta Plus,9,9
+564,Magneta,8,3
+565,Magneta Plus,6,0
+566,Magneta,0,10
+567,Essential,2,4
+568,Essential,9,5
+569,Magneta Plus,1,10
+570,Magneta,8,3
+571,Magneta Plus,10,8
+572,Magneta Plus,0,8
+573,Magneta Plus,1,6
+574,Magneta Plus,3,6
+575,Essential,3,1
+576,Magneta Plus,7,0
+577,Magneta,5,0
+578,Magneta Plus,7,0
+579,Magneta Plus,10,8
+580,Essential,2,5
+581,Magneta,3,2
+582,Essential,2,8
+583,Essential,4,2
+584,Magneta,4,7
+585,Magneta,2,3
+586,Magneta,4,10
+587,Essential,0,0
+588,Magneta Plus,0,8
+589,Magneta Plus,7,6
+590,Magneta,9,8
+591,Magneta Plus,3,5
+592,Magneta,2,4
+593,Magneta Plus,9,3
+594,Magneta,7,9
+595,Magneta Plus,8,6
+596,Magneta,4,1
+597,Magneta,1,0
+598,Essential,7,0
+599,Essential,0,6
+600,Essential,10,9
+601,Magneta Plus,4,5
+602,Magneta,10,3
+603,Essential,10,5
+604,Magneta,2,10
+605,Magneta,6,5
+606,Essential,10,0
+607,Magneta,5,1
+608,Magneta Plus,9,10
+609,Magneta Plus,9,5
+610,Essential,5,5
+611,Magneta Plus,9,4
+612,Essential,4,6
+613,Magneta,7,2
+614,Magneta,4,9
+615,Magneta,9,9
+616,Magneta Plus,2,9
+617,Magneta,4,10
+618,Magneta,4,0
+619,Magneta Plus,7,10
+620,Essential,8,0
+621,Magneta,9,4
+622,Essential,1,3
+623,Essential,4,5
+624,Magneta Plus,3,2
+625,Magneta Plus,9,8
+626,Magneta,4,7
+627,Magneta Plus,2,3
+628,Magneta Plus,3,7
+629,Magneta,1,4
+630,Magneta,2,4
+631,Magneta,4,10
+632,Essential,7,7
+633,Essential,9,1
+634,Essential,1,9
+635,Magneta,7,10
+636,Essential,9,10
+637,Magneta,3,5
+638,Magneta,0,3
+639,Magneta,4,7
+640,Magneta Plus,8,6
+641,Essential,0,9
+642,Magneta,7,9
+643,Essential,0,2
+644,Essential,10,3
+645,Magneta Plus,9,3
+646,Essential,3,3
+647,Essential,8,2
+648,Magneta Plus,3,1
+649,Essential,1,5
+650,Magneta Plus,8,7
+651,Magneta Plus,1,7
+652,Magneta,2,2
+653,Magneta Plus,6,7
+654,Magneta Plus,5,1
+655,Magneta,3,8
+656,Essential,5,2
+657,Magneta,8,0
+658,Magneta,4,6
+659,Magneta,0,6
+660,Magneta,8,6
+661,Magneta,3,9
+662,Magneta,0,7
+663,Magneta,8,10
+664,Magneta,7,0
+665,Essential,5,1
+666,Magneta Plus,9,4
+667,Magneta Plus,3,4
+668,Magneta,10,8
+669,Magneta Plus,9,7
+670,Magneta,0,6
+671,Magneta,9,1
+672,Magneta Plus,10,8
+673,Essential,8,10
+674,Essential,7,9
+675,Magneta,3,10
+676,Essential,4,7
+677,Essential,4,3
+678,Magneta Plus,6,9
+679,Essential,2,0
+680,Magneta Plus,6,3
+681,Essential,9,7
+682,Essential,0,9
+683,Essential,2,5
+684,Magneta,4,7
+685,Essential,1,3
+686,Essential,3,8
+687,Magneta Plus,10,10
+688,Essential,10,4
+689,Magneta,2,10
+690,Magneta Plus,4,5
+691,Essential,10,0
+692,Essential,0,9
+693,Essential,0,9
+694,Essential,0,10
+695,Magneta,6,5
+696,Magneta,8,4
+697,Magneta Plus,2,9
+698,Magneta,6,8
+699,Essential,9,3
+700,Magneta,6,2
+701,Essential,7,0
+702,Magneta,1,2
+703,Magneta Plus,8,7
+704,Magneta,7,4
+705,Magneta Plus,1,10
+706,Magneta Plus,1,8
+707,Magneta,1,6
+708,Essential,3,8
+709,Essential,4,10
+710,Magneta Plus,9,10
+711,Magneta Plus,10,4
+712,Magneta,0,7
+713,Magneta Plus,10,2
+714,Magneta,1,1
+715,Magneta,4,10
+716,Magneta,4,3
+717,Magneta Plus,5,6
+718,Magneta,8,7
+719,Magneta,2,6
+720,Magneta,1,3
+721,Essential,10,3
+722,Magneta,3,0
+723,Essential,1,7
+724,Essential,8,8
+725,Magneta,4,5
+726,Magneta,0,2
+727,Magneta,5,10
+728,Essential,4,9
+729,Magneta Plus,0,1
+730,Essential,8,6
+731,Magneta,5,9
+732,Magneta Plus,6,8
+733,Magneta,4,6
+734,Essential,4,1
+735,Essential,0,9
+736,Magneta Plus,2,10
+737,Essential,3,9
+738,Magneta,1,3
+739,Magneta,4,10
+740,Magneta,6,4
+741,Magneta Plus,0,10
+742,Magneta,5,6
+743,Magneta,10,1
+744,Essential,10,9
+745,Magneta,6,1
+746,Magneta,0,10
+747,Magneta,3,2
+748,Essential,9,0
+749,Magneta,4,6
+750,Essential,10,2
+751,Magneta Plus,4,4
+752,Magneta Plus,3,6
+753,Magneta,8,10
+754,Magneta Plus,6,2
+755,Magneta Plus,3,8
+756,Magneta Plus,8,5
+757,Essential,7,7
+758,Magneta,0,3
+759,Magneta Plus,0,5
+760,Essential,8,1
+761,Essential,6,9
+762,Essential,6,7
+763,Magneta,7,3
+764,Magneta Plus,7,0
+765,Essential,9,8
+766,Magneta,10,5
+767,Magneta,9,3
+768,Magneta Plus,0,4
+769,Essential,1,2
+770,Magneta Plus,0,3
+771,Magneta Plus,10,2
+772,Magneta Plus,8,1
+773,Magneta,2,1
+774,Essential,2,6
+775,Essential,5,3
+776,Essential,7,3
+777,Magneta Plus,9,6
+778,Essential,0,10
+779,Magneta Plus,7,7
+780,Essential,9,9
+781,Magneta,0,5
+782,Magneta,1,5
+783,Magneta Plus,4,3
+784,Magneta Plus,3,4
+785,Magneta Plus,7,6
+786,Magneta,2,0
+787,Magneta,2,8
+788,Essential,3,0
+789,Essential,3,3
+790,Magneta,10,9
+791,Magneta,1,5
+792,Magneta,10,10
+793,Essential,10,0
+794,Essential,3,2
+795,Magneta Plus,8,8
+796,Essential,8,2
+797,Magneta,5,4
+798,Magneta,4,3
+799,Essential,10,3
+800,Magneta Plus,3,0
+801,Essential,10,6
+802,Magneta Plus,9,7
+803,Magneta Plus,3,9
+804,Magneta Plus,7,10
+805,Magneta,2,1
+806,Magneta Plus,8,10
+807,Magneta Plus,9,2
+808,Magneta Plus,5,1
+809,Magneta Plus,1,7
+810,Essential,5,2
+811,Essential,3,9
+812,Magneta,9,2
+813,Essential,7,10
+814,Essential,1,3
+815,Magneta Plus,8,8
+816,Magneta Plus,9,8
+817,Magneta Plus,0,1
+818,Magneta Plus,5,5
+819,Essential,8,7
+820,Magneta,4,6
+821,Magneta,6,2
+822,Essential,2,9
+823,Essential,8,10
+824,Magneta,5,1
+825,Essential,6,5
+826,Essential,10,4
+827,Essential,6,7
+828,Magneta,3,7
+829,Essential,9,10
+830,Essential,0,0
+831,Essential,2,7
+832,Essential,8,10
+833,Magneta,8,2
+834,Essential,4,1
+835,Magneta Plus,4,0
+836,Magneta,6,9
+837,Magneta Plus,7,9
+838,Magneta,10,2
+839,Magneta Plus,1,3
+840,Magneta Plus,1,4
+841,Essential,1,7
+842,Magneta Plus,7,2
+843,Magneta,10,1
+844,Magneta,5,3
+845,Magneta Plus,1,9
+846,Magneta,6,6
+847,Essential,0,9
+848,Essential,1,5
+849,Essential,7,1
+850,Essential,4,0
+851,Essential,4,5
+852,Essential,0,0
+853,Essential,3,10
+854,Essential,1,9
+855,Essential,6,10
+856,Magneta Plus,1,5
+857,Magneta,7,5
+858,Essential,9,0
+859,Magneta Plus,9,8
+860,Essential,8,8
+861,Magneta Plus,5,8
+862,Essential,9,7
+863,Magneta,9,6
+864,Magneta Plus,1,1
+865,Magneta Plus,3,2
+866,Magneta,5,10
+867,Magneta,9,5
+868,Magneta,3,1
+869,Magneta,3,1
+870,Essential,3,8
+871,Magneta Plus,8,3
+872,Magneta Plus,6,1
+873,Magneta Plus,1,2
+874,Magneta,0,6
+875,Magneta Plus,2,8
+876,Magneta,3,3
+877,Magneta,9,1
+878,Magneta,2,9
+879,Magneta,7,3
+880,Essential,2,7
+881,Essential,10,0
+882,Magneta Plus,3,7
+883,Magneta,8,1
+884,Magneta Plus,3,2
+885,Magneta Plus,3,8
+886,Magneta Plus,0,7
+887,Magneta,3,1
+888,Magneta,4,10
+889,Magneta Plus,0,2
+890,Magneta Plus,7,1
+891,Magneta,10,4
+892,Essential,4,5
+893,Magneta,7,4
+894,Magneta Plus,0,10
+895,Magneta,8,1
+896,Essential,6,10
+897,Essential,8,7
+898,Essential,3,3
+899,Magneta Plus,1,5
+900,Magneta,1,0
+901,Essential,6,1
+902,Magneta,0,5
+903,Magneta,9,8
+904,Magneta Plus,8,0
+905,Magneta Plus,9,10
+906,Magneta Plus,2,7
+907,Essential,5,9
+908,Magneta,3,5
+909,Essential,7,9
+910,Magneta Plus,6,2
+911,Magneta Plus,0,7
+912,Magneta,4,3
+913,Magneta,0,3
+914,Magneta,7,5
+915,Essential,8,2
+916,Magneta,3,9
+917,Magneta,10,0
+918,Essential,0,7
+919,Magneta Plus,3,3
+920,Magneta,7,7
+921,Magneta Plus,4,9
+922,Magneta,2,9
+923,Magneta,4,2
+924,Magneta Plus,3,2
+925,Essential,0,1
+926,Essential,10,4
+927,Essential,6,3
+928,Essential,5,1
+929,Magneta,8,0
+930,Magneta,0,7
+931,Essential,8,3
+932,Magneta Plus,7,9
+933,Magneta,5,5
+934,Magneta,4,0
+935,Magneta Plus,9,3
+936,Magneta,3,1
+937,Essential,3,8
+938,Magneta Plus,9,2
+939,Magneta,0,5
+940,Magneta,10,2
+941,Magneta,0,8
+942,Magneta,3,8
+943,Essential,7,4
+944,Magneta Plus,6,4
+945,Essential,7,5
+946,Magneta Plus,7,6
+947,Magneta Plus,4,5
+948,Magneta Plus,10,8
+949,Magneta Plus,8,1
+950,Magneta Plus,10,5
+951,Magneta,10,8
+952,Magneta Plus,5,2
+953,Essential,6,10
+954,Magneta,6,7
+955,Magneta,5,0
+956,Magneta,7,7
+957,Essential,6,7
+958,Magneta Plus,10,1
+959,Magneta Plus,5,4
+960,Essential,9,1
+961,Magneta,7,6
+962,Magneta Plus,1,8
+963,Essential,6,2
+964,Magneta Plus,4,0
+965,Magneta,2,1
+966,Essential,5,7
+967,Magneta,8,1
+968,Magneta,8,2
+969,Magneta,3,5
+970,Magneta,7,3
+971,Essential,2,1
+972,Essential,10,8
+973,Magneta Plus,7,3
+974,Magneta,5,2
+975,Magneta,10,5
+976,Magneta,9,1
+977,Magneta,5,9
+978,Magneta,7,9
+979,Essential,10,5
+980,Essential,0,2
+981,Magneta,10,8
+982,Magneta Plus,8,6
+983,Magneta,3,6
+984,Essential,6,7
+985,Magneta Plus,6,0
+986,Essential,1,4
+987,Magneta,10,9
+988,Magneta Plus,3,5
+989,Essential,6,2
+990,Magneta,8,4
+991,Essential,4,6
+992,Magneta,0,3
+993,Magneta,8,8
+994,Magneta,10,6
+995,Essential,3,7
+996,Magneta,4,1
+997,Magneta,10,10
+998,Magneta,6,0
+999,Magneta,9,2
+1000,Magneta Plus,7,6
+1001,Essential,1,4
+1002,Essential,2,6
+1003,Magneta Plus,3,2
+1004,Essential,10,10
+1005,Magneta,8,8
+1006,Magneta,0,8
+1007,Magneta,3,7
+1008,Magneta,3,0
+1009,Essential,1,3
+1010,Essential,2,0
+1011,Magneta,1,1
+1012,Essential,7,10
+1013,Essential,3,6
+1014,Essential,9,2
+1015,Magneta Plus,1,3
+1016,Magneta Plus,8,1
+1017,Essential,9,0
+1018,Essential,5,8
+1019,Magneta Plus,1,0
+1020,Magneta Plus,9,7
+1021,Magneta Plus,5,0
+1022,Magneta Plus,3,9
+1023,Magneta Plus,4,5
+1024,Magneta Plus,3,5
+1025,Magneta,3,10
+1026,Magneta,4,6
+1027,Essential,9,4
+1028,Magneta,8,5
+1029,Essential,1,4
+1030,Magneta Plus,4,8
+1031,Essential,0,3
+1032,Magneta Plus,8,0
+1033,Magneta,2,7
+1034,Magneta,2,9
+1035,Essential,0,7
+1036,Magneta Plus,10,1
+1037,Essential,6,1
+1038,Essential,6,2
+1039,Essential,1,6
+1040,Magneta Plus,3,5
+1041,Magneta,0,1
+1042,Magneta Plus,8,7
+1043,Magneta,1,8
+1044,Magneta Plus,6,3
+1045,Essential,4,5
+1046,Essential,5,10
+1047,Essential,3,1
+1048,Magneta Plus,1,9
+1049,Magneta Plus,9,7
+1050,Magneta,5,3
+1051,Magneta,10,6
+1052,Magneta,4,8
+1053,Magneta,3,5
+1054,Essential,10,2
+1055,Magneta Plus,5,9
+1056,Magneta Plus,10,1
+1057,Essential,4,9
+1058,Magneta Plus,8,0
+1059,Magneta,9,10
+1060,Magneta,10,8
+1061,Magneta,2,8
+1062,Magneta,4,9
+1063,Essential,0,9
+1064,Essential,9,6
+1065,Essential,10,9
+1066,Magneta Plus,1,0
+1067,Magneta,9,2
+1068,Essential,6,9
+1069,Magneta Plus,5,5
+1070,Magneta Plus,1,10
+1071,Essential,2,1
+1072,Magneta Plus,10,3
+1073,Magneta Plus,6,6
+1074,Essential,4,10
+1075,Magneta,6,4
+1076,Magneta Plus,9,10
+1077,Magneta,1,3
+1078,Magneta,0,1
+1079,Magneta,4,2
+1080,Magneta,3,9
+1081,Magneta Plus,7,9
+1082,Magneta Plus,9,1
+1083,Magneta Plus,8,5
+1084,Magneta,0,5
+1085,Magneta,3,2
+1086,Magneta,0,2
+1087,Essential,6,9
+1088,Magneta Plus,3,3
+1089,Essential,5,10
+1090,Magneta,9,5
+1091,Magneta,10,5
+1092,Essential,0,9
+1093,Magneta Plus,4,4
+1094,Magneta Plus,4,4
+1095,Essential,2,8
+1096,Magneta,9,2
+1097,Magneta,2,5
+1098,Magneta Plus,1,0
+1099,Magneta,8,9
+1100,Magneta,6,2
+1101,Essential,1,4
+1102,Essential,5,1
+1103,Essential,10,8
+1104,Magneta Plus,1,7
+1105,Magneta,6,0
+1106,Magneta Plus,0,7
+1107,Magneta,10,5
+1108,Essential,2,3
+1109,Magneta,0,9
+1110,Essential,10,10
+1111,Essential,3,4
+1112,Magneta,0,6
+1113,Essential,7,8
+1114,Magneta Plus,7,10
+1115,Magneta,7,10
+1116,Essential,8,1
+1117,Magneta Plus,1,8
+1118,Magneta,5,5
+1119,Magneta,7,2
+1120,Magneta,3,5
+1121,Magneta,10,7
+1122,Magneta Plus,6,6
+1123,Magneta Plus,1,0
+1124,Magneta Plus,4,2
+1125,Essential,8,4
+1126,Magneta Plus,10,4
+1127,Magneta Plus,3,8
+1128,Magneta,9,8
+1129,Essential,5,4
+1130,Magneta Plus,2,4
+1131,Magneta Plus,10,1
+1132,Magneta Plus,4,1
+1133,Magneta,5,1
+1134,Magneta,10,5
+1135,Magneta,10,8
+1136,Magneta Plus,4,9
+1137,Magneta,4,2
+1138,Magneta,10,4
+1139,Magneta,7,6
+1140,Essential,9,4
+1141,Magneta Plus,7,6
+1142,Essential,8,6
+1143,Essential,3,1
+1144,Magneta Plus,6,2
+1145,Magneta,2,10
+1146,Essential,7,6
+1147,Magneta Plus,3,3
+1148,Magneta,4,3
+1149,Magneta,9,1
+1150,Essential,9,9
+1151,Magneta,9,3
+1152,Magneta,3,1
+1153,Magneta,0,6
+1154,Magneta Plus,10,9
+1155,Essential,2,7
+1156,Magneta Plus,9,7
+1157,Magneta Plus,0,0
+1158,Magneta,4,0
+1159,Magneta Plus,0,1
+1160,Essential,10,8
+1161,Magneta,9,0
+1162,Essential,0,9
+1163,Magneta Plus,5,6
+1164,Magneta Plus,5,9
+1165,Magneta Plus,2,1
+1166,Magneta,6,4
+1167,Essential,5,3
+1168,Magneta Plus,3,1
+1169,Essential,5,9
+1170,Magneta,7,4
+1171,Magneta Plus,6,10
+1172,Magneta,7,10
+1173,Essential,7,2
+1174,Essential,6,7
+1175,Magneta Plus,1,3
+1176,Magneta,1,6
+1177,Magneta,7,1
+1178,Magneta,5,10
+1179,Essential,4,8
+1180,Magneta,5,8
+1181,Essential,8,4
+1182,Magneta Plus,7,0
+1183,Magneta Plus,9,4
+1184,Essential,2,4
+1185,Magneta,9,0
+1186,Magneta Plus,0,10
+1187,Essential,1,1
+1188,Essential,6,4
+1189,Essential,2,7
+1190,Essential,6,6
+1191,Magneta Plus,9,2
+1192,Magneta,4,9
+1193,Magneta Plus,0,1
+1194,Magneta,7,9
+1195,Magneta,5,3
+1196,Magneta,1,10
+1197,Magneta,8,3
+1198,Essential,9,7
+1199,Magneta,5,3
+1200,Magneta,3,0
+1201,Essential,6,6
+1202,Essential,0,6
+1203,Essential,10,5
+1204,Essential,8,3
+1205,Magneta Plus,2,7
+1206,Magneta,2,2
+1207,Essential,1,9
+1208,Magneta,5,7
+1209,Magneta,7,6
+1210,Magneta,7,6
+1211,Magneta Plus,4,4
+1212,Magneta,8,10
+1213,Magneta,3,4
+1214,Magneta Plus,5,9
+1215,Magneta Plus,0,6
+1216,Essential,7,5
+1217,Magneta,1,4
+1218,Magneta,10,8
+1219,Magneta,10,8
+1220,Magneta,1,9
+1221,Magneta,4,4
+1222,Magneta Plus,7,10
+1223,Magneta,2,3
+1224,Essential,1,5
+1225,Magneta,8,0
+1226,Magneta,10,8
+1227,Magneta,2,6
+1228,Essential,0,7
+1229,Essential,6,0
+1230,Essential,9,10
+1231,Magneta,3,4
+1232,Magneta Plus,7,7
+1233,Essential,2,7
+1234,Magneta Plus,1,5
+1235,Magneta,9,10
+1236,Magneta Plus,8,9
+1237,Magneta Plus,2,6
+1238,Magneta Plus,3,1
+1239,Essential,10,3
+1240,Essential,6,7
+1241,Magneta,2,2
+1242,Essential,10,10
+1243,Essential,6,7
+1244,Magneta Plus,3,5
+1245,Magneta Plus,2,6
+1246,Essential,9,10
+1247,Magneta,9,8
+1248,Magneta,1,4
+1249,Magneta Plus,6,9
+1250,Magneta Plus,5,9
+1251,Essential,9,3
+1252,Magneta,2,3
+1253,Essential,5,1
+1254,Magneta Plus,10,1
+1255,Magneta,10,4
+1256,Essential,6,6
+1257,Essential,10,9
+1258,Magneta,0,6
+1259,Magneta Plus,10,6
+1260,Magneta,0,1
+1261,Magneta,3,4
+1262,Magneta Plus,8,6
+1263,Magneta,8,5
+1264,Essential,9,9
+1265,Magneta,1,0
+1266,Magneta Plus,7,5
+1267,Magneta Plus,4,7
+1268,Magneta,0,1
+1269,Magneta Plus,1,2
+1270,Magneta,7,10
+1271,Essential,7,8
+1272,Magneta,5,4
+1273,Magneta,9,1
+1274,Essential,1,5
+1275,Essential,5,9
+1276,Essential,7,2
+1277,Magneta,10,9
+1278,Essential,1,4
+1279,Magneta,5,5
+1280,Essential,6,7
+1281,Magneta Plus,4,4
+1282,Essential,2,7
+1283,Essential,6,3
+1284,Essential,8,4
+1285,Magneta,9,0
+1286,Essential,5,0
+1287,Essential,7,10
+1288,Essential,8,3
+1289,Magneta Plus,2,3
+1290,Magneta Plus,4,10
+1291,Magneta Plus,10,1
+1292,Magneta Plus,0,2
+1293,Magneta Plus,6,4
+1294,Magneta Plus,6,0
+1295,Magneta Plus,5,9
+1296,Magneta Plus,9,0
+1297,Magneta,6,6
+1298,Magneta Plus,9,9
+1299,Magneta,10,8
+1300,Magneta,1,1
+1301,Magneta,0,9
+1302,Magneta Plus,9,4
+1303,Essential,1,0
+1304,Magneta,2,6
+1305,Magneta Plus,2,7
+1306,Magneta Plus,9,0
+1307,Essential,2,4
+1308,Magneta,0,5
+1309,Magneta Plus,7,5
+1310,Magneta,0,10
+1311,Magneta Plus,7,3
+1312,Magneta,1,4
+1313,Magneta Plus,7,4
+1314,Essential,9,6
+1315,Magneta Plus,9,1
+1316,Essential,5,2
+1317,Magneta Plus,0,4
+1318,Essential,6,3
+1319,Essential,4,3
+1320,Magneta,3,7
+1321,Magneta,10,2
+1322,Magneta Plus,2,7
+1323,Magneta Plus,1,2
+1324,Essential,10,3
+1325,Magneta,6,6
+1326,Essential,6,10
+1327,Magneta Plus,6,5
+1328,Magneta,4,5
+1329,Magneta,8,6
+1330,Magneta Plus,10,10
+1331,Magneta Plus,1,4
+1332,Essential,3,6
+1333,Essential,6,3
+1334,Magneta,10,8
+1335,Essential,0,6
+1336,Magneta Plus,7,4
+1337,Essential,2,8
+1338,Magneta Plus,1,4
+1339,Magneta Plus,3,1
+1340,Essential,4,4
+1341,Essential,7,0
+1342,Magneta,2,1
+1343,Essential,9,1
+1344,Magneta Plus,1,4
+1345,Essential,7,5
+1346,Magneta,5,10
+1347,Magneta Plus,5,5
+1348,Magneta Plus,2,5
+1349,Essential,6,3
+1350,Essential,4,2
+1351,Essential,7,3
+1352,Magneta Plus,8,3
+1353,Essential,3,1
+1354,Magneta Plus,8,0
+1355,Magneta,5,7
+1356,Essential,10,5
+1357,Magneta,3,1
+1358,Magneta,2,10
+1359,Magneta,2,6
+1360,Magneta Plus,2,2
+1361,Magneta Plus,7,1
+1362,Essential,10,2
+1363,Essential,3,6
+1364,Magneta,8,0
+1365,Essential,1,5
+1366,Magneta,10,9
+1367,Essential,6,4
+1368,Essential,9,8
+1369,Magneta,2,2
+1370,Essential,2,0
+1371,Magneta Plus,7,4
+1372,Essential,9,4
+1373,Magneta Plus,4,7
+1374,Magneta,2,4
+1375,Magneta,0,8
+1376,Magneta Plus,7,4
+1377,Magneta Plus,6,8
+1378,Essential,4,1
+1379,Magneta,7,0
+1380,Magneta Plus,4,9
+1381,Essential,10,6
+1382,Essential,9,3
+1383,Magneta,3,4
+1384,Magneta,5,1
+1385,Essential,2,4
+1386,Magneta,8,3
+1387,Magneta,0,9
+1388,Magneta,5,6
+1389,Magneta Plus,7,9
+1390,Magneta Plus,2,3
+1391,Magneta Plus,6,0
+1392,Essential,10,3
+1393,Magneta Plus,5,9
+1394,Essential,2,10
+1395,Magneta,8,8
+1396,Magneta,10,0
+1397,Magneta Plus,6,4
+1398,Magneta Plus,6,5
+1399,Magneta,8,0
+1400,Magneta Plus,4,10
+1401,Essential,9,7
+1402,Essential,4,2
+1403,Magneta,5,3
+1404,Magneta Plus,0,8
+1405,Essential,9,10
+1406,Essential,9,3
+1407,Essential,3,8
+1408,Magneta,5,1
+1409,Essential,9,7
+1410,Essential,4,5
+1411,Essential,2,10
+1412,Essential,5,5
+1413,Magneta Plus,7,8
+1414,Essential,7,0
+1415,Magneta Plus,9,1
+1416,Essential,5,4
+1417,Essential,4,9
+1418,Magneta,7,8
+1419,Essential,5,2
+1420,Magneta Plus,9,6
+1421,Magneta Plus,10,8
+1422,Essential,1,6
+1423,Essential,7,7
+1424,Magneta Plus,6,10
+1425,Magneta,10,10
+1426,Magneta,9,3
+1427,Magneta,3,3
+1428,Essential,7,4
+1429,Magneta,6,4
+1430,Essential,4,7
+1431,Magneta,7,4
+1432,Magneta,5,4
+1433,Essential,7,6
+1434,Essential,3,3
+1435,Magneta Plus,10,1
+1436,Magneta,10,2
+1437,Essential,6,5
+1438,Essential,10,6
+1439,Essential,8,6
+1440,Magneta Plus,4,5
+1441,Essential,0,2
+1442,Magneta Plus,3,5
+1443,Magneta,7,2
+1444,Essential,7,1
+1445,Magneta Plus,5,9
+1446,Magneta,1,10
+1447,Magneta Plus,3,2
+1448,Magneta,3,8
+1449,Magneta,5,7
+1450,Magneta Plus,0,8
+1451,Essential,0,8
+1452,Magneta Plus,4,7
+1453,Magneta Plus,5,9
+1454,Magneta,4,10
+1455,Magneta Plus,9,2
+1456,Magneta,10,10
+1457,Magneta Plus,1,8
+1458,Essential,5,10
+1459,Magneta Plus,7,1
+1460,Magneta,6,2
+1461,Essential,5,6
+1462,Essential,5,1
+1463,Essential,6,4
+1464,Magneta,1,2
+1465,Magneta,3,2
+1466,Magneta,10,9
+1467,Essential,0,4
+1468,Magneta,2,4
+1469,Magneta,2,5
+1470,Essential,1,2
+1471,Essential,4,6
+1472,Magneta,10,6
+1473,Magneta Plus,10,1
+1474,Magneta,4,1
+1475,Magneta Plus,1,0
+1476,Magneta,8,1
+1477,Magneta,4,2
+1478,Magneta Plus,6,3
+1479,Magneta,2,9
+1480,Essential,0,6
+1481,Magneta,3,10
+1482,Magneta,0,9
+1483,Essential,5,3
+1484,Essential,1,4
+1485,Magneta,1,2
+1486,Magneta Plus,4,5
+1487,Magneta,6,3
+1488,Magneta Plus,7,0
+1489,Essential,10,8
+1490,Magneta Plus,1,10
+1491,Magneta,9,10
+1492,Magneta,10,2
+1493,Magneta,4,4
+1494,Magneta Plus,10,4
+1495,Essential,0,1
+1496,Magneta,4,1
+1497,Magneta,0,3
+1498,Magneta Plus,3,3
+1499,Magneta,10,8
+1500,Magneta Plus,8,6
+1501,Magneta,2,3
+1502,Magneta,8,8
+1503,Magneta Plus,3,6
+1504,Essential,6,3
+1505,Essential,8,5
+1506,Essential,10,10
+1507,Magneta,6,4
+1508,Magneta Plus,6,6
+1509,Magneta Plus,10,3
+1510,Magneta,10,9
+1511,Magneta Plus,7,6
+1512,Magneta,7,0
+1513,Magneta,1,5
+1514,Essential,1,5
+1515,Magneta Plus,9,4
+1516,Magneta Plus,7,2
+1517,Essential,4,10
+1518,Magneta Plus,7,7
+1519,Essential,4,1
+1520,Essential,5,8
+1521,Essential,7,3
+1522,Essential,6,10
+1523,Essential,9,2
+1524,Essential,2,9
+1525,Essential,4,5
+1526,Magneta Plus,8,10
+1527,Magneta Plus,3,1
+1528,Essential,2,6
+1529,Essential,1,5
+1530,Essential,9,3
+1531,Essential,8,5
+1532,Magneta,4,2
+1533,Magneta,10,7
+1534,Essential,6,1
+1535,Essential,6,9
+1536,Magneta Plus,4,1
+1537,Essential,3,3
+1538,Essential,2,6
+1539,Magneta,4,1
+1540,Essential,0,3
+1541,Essential,3,5
+1542,Magneta,0,9
+1543,Magneta Plus,0,10
+1544,Essential,9,0
+1545,Essential,10,3
+1546,Magneta,2,1
+1547,Essential,9,4
+1548,Magneta Plus,4,1
+1549,Magneta,5,1
+1550,Magneta Plus,0,3
+1551,Magneta,5,8
+1552,Essential,0,3
+1553,Magneta,5,3
+1554,Magneta Plus,8,1
+1555,Magneta Plus,6,8
+1556,Magneta,7,2
+1557,Magneta Plus,3,7
+1558,Magneta Plus,3,1
+1559,Essential,1,4
+1560,Magneta Plus,1,9
+1561,Magneta Plus,8,7
+1562,Essential,6,3
+1563,Magneta Plus,6,8
+1564,Magneta Plus,2,2
+1565,Essential,6,0
+1566,Magneta Plus,2,0
+1567,Essential,9,10
+1568,Essential,10,4
+1569,Essential,0,4
+1570,Essential,8,9
+1571,Essential,4,4
+1572,Magneta,10,0
+1573,Magneta,2,1
+1574,Essential,8,2
+1575,Magneta,3,1
+1576,Magneta Plus,6,4
+1577,Magneta Plus,2,1
+1578,Magneta,2,3
+1579,Essential,8,7
+1580,Magneta Plus,6,4
+1581,Essential,4,0
+1582,Magneta Plus,4,5
+1583,Essential,4,3
+1584,Magneta,7,2
+1585,Essential,8,10
+1586,Magneta Plus,4,7
+1587,Magneta Plus,10,0
+1588,Magneta,2,0
+1589,Magneta Plus,5,8
+1590,Essential,6,10
+1591,Magneta Plus,5,9
+1592,Magneta Plus,9,9
+1593,Essential,5,4
+1594,Magneta,6,5
+1595,Magneta Plus,9,9
+1596,Magneta,2,4
+1597,Magneta Plus,5,0
+1598,Magneta,8,10
+1599,Essential,1,6
+1600,Magneta,10,1
+1601,Magneta,2,8
+1602,Magneta Plus,10,0
+1603,Magneta Plus,0,4
+1604,Magneta Plus,2,5
+1605,Essential,0,10
+1606,Magneta,9,3
+1607,Essential,10,9
+1608,Essential,1,9
+1609,Essential,10,5
+1610,Magneta Plus,10,4
+1611,Essential,9,7
+1612,Magneta,6,10
+1613,Magneta Plus,7,1
+1614,Magneta,3,6
+1615,Essential,10,10
+1616,Magneta,7,7
+1617,Magneta,7,8
+1618,Magneta Plus,9,1
+1619,Magneta Plus,5,5
+1620,Magneta Plus,3,4
+1621,Magneta,9,9
+1622,Magneta Plus,1,3
+1623,Magneta,6,8
+1624,Magneta Plus,9,7
+1625,Magneta Plus,9,0
+1626,Essential,6,9
+1627,Magneta,6,7
+1628,Magneta Plus,10,9
+1629,Magneta,10,2
+1630,Magneta Plus,7,2
+1631,Essential,1,2
+1632,Essential,6,4
+1633,Essential,10,7
+1634,Magneta,5,10
+1635,Essential,4,8
+1636,Magneta Plus,10,0
+1637,Magneta Plus,1,6
+1638,Essential,8,3
+1639,Essential,9,2
+1640,Magneta Plus,8,8
+1641,Essential,2,6
+1642,Magneta Plus,1,9
+1643,Magneta,5,4
+1644,Essential,0,8
+1645,Magneta,10,1
+1646,Magneta,6,3
+1647,Magneta,7,4
+1648,Magneta,7,3
+1649,Magneta Plus,8,8
+1650,Magneta,9,2
+1651,Essential,2,0
+1652,Magneta,7,8
+1653,Essential,1,7
+1654,Magneta,4,4
+1655,Magneta Plus,7,0
+1656,Magneta Plus,5,8
+1657,Magneta,9,3
+1658,Magneta Plus,8,2
+1659,Magneta Plus,6,4
+1660,Magneta,9,5
+1661,Essential,3,2
+1662,Magneta,5,7
+1663,Essential,9,3
+1664,Essential,4,4
+1665,Magneta,3,6
+1666,Magneta,5,7
+1667,Essential,9,8
+1668,Magneta,9,5
+1669,Essential,7,8
+1670,Magneta,6,6
+1671,Magneta,0,4
+1672,Magneta Plus,5,7
+1673,Magneta,5,3
+1674,Magneta,7,10
+1675,Magneta Plus,2,10
+1676,Essential,7,7
+1677,Essential,5,1
+1678,Magneta,7,8
+1679,Magneta Plus,8,5
+1680,Magneta,3,5
+1681,Magneta Plus,8,8
+1682,Magneta,7,1
+1683,Magneta Plus,8,4
+1684,Essential,6,0
+1685,Magneta,6,1
+1686,Magneta,5,4
+1687,Magneta,0,8
+1688,Magneta Plus,2,9
+1689,Magneta,9,5
+1690,Magneta,6,7
+1691,Magneta Plus,8,8
+1692,Magneta Plus,1,2
+1693,Essential,3,5
+1694,Magneta Plus,5,1
+1695,Essential,6,7
+1696,Essential,5,1
+1697,Essential,1,3
+1698,Magneta Plus,1,1
+1699,Magneta Plus,3,5
+1700,Magneta,10,1
+1701,Essential,4,9
+1702,Magneta Plus,3,2
+1703,Magneta,2,3
+1704,Magneta Plus,6,8
+1705,Magneta,2,7
+1706,Magneta,10,3
+1707,Magneta Plus,7,4
+1708,Essential,6,0
+1709,Essential,0,2
+1710,Magneta Plus,4,10
+1711,Magneta Plus,7,7
+1712,Magneta,5,4
+1713,Magneta,2,4
+1714,Magneta,6,6
+1715,Magneta,6,1
+1716,Magneta Plus,2,10
+1717,Magneta Plus,5,0
+1718,Magneta,2,6
+1719,Magneta,4,8
+1720,Magneta,9,0
+1721,Essential,3,2
+1722,Essential,10,4
+1723,Essential,10,7
+1724,Essential,4,0
+1725,Magneta,4,7
+1726,Magneta Plus,5,7
+1727,Essential,2,6
+1728,Essential,6,4
+1729,Magneta,8,0
+1730,Magneta,1,3
+1731,Magneta,4,10
+1732,Essential,7,5
+1733,Magneta Plus,7,1
+1734,Essential,0,4
+1735,Magneta,6,10
+1736,Magneta,2,9
+1737,Magneta,0,9
+1738,Essential,1,9
+1739,Magneta,7,1
+1740,Magneta,5,7
+1741,Magneta Plus,4,10
+1742,Essential,1,8
+1743,Magneta,6,1
+1744,Magneta,4,6
+1745,Magneta,6,3
+1746,Essential,7,0
+1747,Magneta Plus,1,5
+1748,Essential,4,1
+1749,Essential,4,5
+1750,Magneta Plus,6,3
+1751,Magneta Plus,6,7
+1752,Magneta Plus,9,4
+1753,Essential,2,6
+1754,Magneta,6,4
+1755,Magneta,3,7
+1756,Magneta,6,6
+1757,Magneta Plus,9,3
+1758,Magneta Plus,6,0
+1759,Essential,4,8
+1760,Essential,7,1
+1761,Essential,9,7
+1762,Magneta,2,8
+1763,Essential,0,2
+1764,Magneta,5,1
+1765,Essential,1,8
+1766,Magneta Plus,0,4
+1767,Essential,6,2
+1768,Magneta Plus,8,10
+1769,Magneta Plus,2,4
+1770,Essential,0,5
+1771,Essential,3,8
+1772,Magneta,3,1
+1773,Magneta,6,7
+1774,Essential,3,7
+1775,Essential,8,7
+1776,Magneta,2,7
+1777,Essential,4,6
+1778,Essential,6,5
+1779,Essential,2,1
+1780,Magneta,10,6
+1781,Magneta Plus,10,4
+1782,Magneta Plus,5,3
+1783,Magneta Plus,7,10
+1784,Essential,5,9
+1785,Magneta Plus,3,1
+1786,Magneta Plus,8,6
+1787,Magneta,5,0
+1788,Essential,4,10
+1789,Magneta Plus,4,4
+1790,Magneta Plus,9,5
+1791,Essential,5,5
+1792,Magneta Plus,1,4
+1793,Magneta Plus,8,3
+1794,Magneta,3,1
+1795,Magneta,1,7
+1796,Magneta,5,4
+1797,Magneta,5,5
+1798,Magneta Plus,1,3
+1799,Magneta,8,7
+1800,Magneta,9,9
+1801,Essential,7,8
+1802,Essential,3,7
+1803,Magneta,8,1
+1804,Essential,2,9
+1805,Magneta,2,7
+1806,Magneta,4,5
+1807,Magneta Plus,5,9
+1808,Magneta Plus,0,4
+1809,Magneta Plus,0,8
+1810,Magneta Plus,9,2
+1811,Magneta,4,2
+1812,Magneta,10,4
+1813,Magneta Plus,0,0
+1814,Magneta,5,10
+1815,Magneta,8,5
+1816,Magneta,9,2
+1817,Magneta Plus,0,5
+1818,Magneta,4,9
+1819,Essential,7,6
+1820,Magneta Plus,8,2
+1821,Magneta Plus,4,10
+1822,Magneta,0,1
+1823,Essential,9,9
+1824,Magneta Plus,5,0
+1825,Magneta Plus,9,1
+1826,Magneta Plus,8,8
+1827,Essential,6,8
+1828,Essential,7,9
+1829,Magneta Plus,6,3
+1830,Magneta Plus,8,3
+1831,Magneta,4,10
+1832,Magneta Plus,9,2
+1833,Essential,8,9
+1834,Magneta,4,9
+1835,Magneta Plus,3,7
+1836,Magneta Plus,5,10
+1837,Essential,5,2
+1838,Essential,3,2
+1839,Magneta,7,2
+1840,Essential,8,8
+1841,Essential,5,1
+1842,Essential,5,7
+1843,Magneta,5,10
+1844,Magneta Plus,3,1
+1845,Essential,0,3
+1846,Essential,2,9
+1847,Magneta,1,4
+1848,Essential,3,2
+1849,Magneta,1,3
+1850,Magneta,4,1
+1851,Magneta Plus,7,3
+1852,Essential,2,0
+1853,Magneta,10,0
+1854,Essential,7,10
+1855,Magneta,4,8
+1856,Magneta,10,6
+1857,Essential,3,6
+1858,Magneta,7,5
+1859,Magneta Plus,7,3
+1860,Magneta,6,7
+1861,Magneta,10,1
+1862,Magneta Plus,6,2
+1863,Magneta,6,8
+1864,Essential,0,7
+1865,Essential,4,1
+1866,Essential,0,10
+1867,Essential,6,1
+1868,Magneta,3,10
+1869,Magneta Plus,4,1
+1870,Magneta,0,8
+1871,Magneta,5,10
+1872,Essential,10,4
+1873,Magneta,4,9
+1874,Magneta Plus,7,6
+1875,Magneta,3,7
+1876,Essential,1,5
+1877,Essential,5,6
+1878,Magneta Plus,3,4
+1879,Magneta,3,5
+1880,Magneta,1,2
+1881,Magneta Plus,2,5
+1882,Magneta Plus,10,10
+1883,Magneta,0,6
+1884,Magneta,0,8
+1885,Magneta Plus,1,10
+1886,Magneta Plus,5,6
+1887,Magneta Plus,8,0
+1888,Magneta,0,4
+1889,Magneta Plus,10,2
+1890,Essential,4,6
+1891,Magneta,5,4
+1892,Magneta,0,0
+1893,Magneta Plus,8,5
+1894,Magneta Plus,9,7
+1895,Magneta,4,4
+1896,Magneta Plus,6,8
+1897,Magneta Plus,2,4
+1898,Magneta Plus,3,1
+1899,Magneta,10,6
+1900,Magneta,7,1
+1901,Magneta,7,6
+1902,Magneta Plus,0,2
+1903,Magneta,9,0
+1904,Essential,2,4
+1905,Essential,10,9
+1906,Magneta,5,6
+1907,Magneta Plus,10,5
+1908,Magneta,2,2
+1909,Magneta Plus,7,10
+1910,Magneta,5,2
+1911,Magneta Plus,8,9
+1912,Magneta Plus,5,1
+1913,Essential,1,3
+1914,Essential,9,4
+1915,Magneta,8,0
+1916,Magneta Plus,3,4
+1917,Magneta,6,0
+1918,Magneta Plus,1,1
+1919,Magneta Plus,5,10
+1920,Essential,7,8
+1921,Essential,0,5
+1922,Essential,10,2
+1923,Magneta Plus,1,9
+1924,Magneta,10,1
+1925,Essential,6,6
+1926,Magneta Plus,7,6
+1927,Essential,8,3
+1928,Essential,1,5
+1929,Magneta Plus,4,4
+1930,Magneta Plus,10,3
+1931,Essential,8,9
+1932,Magneta,4,8
+1933,Magneta Plus,4,4
+1934,Magneta,4,0
+1935,Magneta Plus,9,5
+1936,Magneta Plus,4,9
+1937,Magneta,1,7
+1938,Magneta,3,9
+1939,Essential,3,8
+1940,Magneta Plus,7,6
+1941,Magneta,8,2
+1942,Essential,8,9
+1943,Magneta Plus,1,7
+1944,Magneta,1,2
+1945,Magneta,1,9
+1946,Magneta,1,7
+1947,Magneta Plus,4,2
+1948,Essential,6,6
+1949,Magneta,10,0
+1950,Magneta,4,1
+1951,Magneta,3,2
+1952,Essential,2,10
+1953,Essential,3,7
+1954,Magneta Plus,1,6
+1955,Magneta,5,9
+1956,Essential,10,6
+1957,Magneta Plus,8,6
+1958,Magneta Plus,3,8
+1959,Magneta Plus,9,3
+1960,Essential,2,10
+1961,Magneta,0,1
+1962,Magneta Plus,3,4
+1963,Magneta,4,0
+1964,Essential,1,6
+1965,Essential,1,5
+1966,Magneta Plus,9,3
+1967,Magneta Plus,10,1
+1968,Magneta,2,9
+1969,Magneta Plus,1,7
+1970,Magneta,10,0
+1971,Magneta Plus,2,3
+1972,Magneta,6,5
+1973,Magneta Plus,7,9
+1974,Magneta Plus,4,7
+1975,Magneta Plus,1,2
+1976,Magneta,8,10
+1977,Magneta Plus,2,8
+1978,Essential,1,10
+1979,Magneta Plus,6,5
+1980,Magneta Plus,0,5
+1981,Essential,7,1
+1982,Magneta,5,3
+1983,Magneta,8,9
+1984,Magneta Plus,9,6
+1985,Magneta Plus,6,4
+1986,Magneta Plus,8,2
+1987,Magneta,7,3
+1988,Essential,2,2
+1989,Magneta,6,4
+1990,Magneta,8,9
+1991,Magneta Plus,9,7
+1992,Magneta,3,7
+1993,Magneta,1,1
+1994,Essential,7,0
+1995,Magneta,8,2
+1996,Magneta Plus,2,0
+1997,Essential,1,6
+1998,Magneta Plus,0,3
+1999,Magneta Plus,2,6

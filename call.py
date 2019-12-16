@@ -26,7 +26,7 @@ def generate_output(call_id):
                         call[1]],
                        "output/calls.csv")
 
-
+'''
 def answer_call():
     dept_id = random.choice(["DEPT_SALES", "DEPT_MAIN", "DEPT_SUPPORT", "DEPT_CANCEL", "DEPT_UPGRADE"])
     call = generate_call(the_date)
@@ -38,3 +38,19 @@ def answer_call():
     salary = random.choice(["900", "1000", "1200"])
     call = [call_id, client_id, dept_id, tele_id, salary, satisfaction, response]
     writer.export_data(call, "output/fact1.csv")
+'''
+
+
+def answer_call(some_id):
+    dept_id = random.choice(["DEPT_SALES", "DEPT_MAIN", "DEPT_SUPPORT", "DEPT_CANCEL", "DEPT_UPGRADE"])
+    client_id = random.randint(0, 10)
+    tele_id = random.randint(0, 7)
+    call = writer.get_row("output/calls.csv", client_id)
+    date = client_id
+    satisfaction = call[1]
+    response = call[2]
+    salary = writer.get_row("output/operators.csv", tele_id)[3]
+    call = [some_id, client_id, dept_id, tele_id, salary, date, satisfaction, response]
+    writer.export_data(call, "output/answer.csv")
+
+
