@@ -60,7 +60,7 @@ def generate_output(i_id):
 
 t_one = datetime.date(2018, 1, 1)
 
-
+'''
 def client_output():
     plan = generate_internet_plan()
     numeric_id = general.generate_id()
@@ -71,7 +71,7 @@ def client_output():
     expiration = fake.date_between(start_date=permanence, end_date=t_one)
     client_mobile = [numeric_id, i_id, contract, permanence, expiration, plan[2], plan[3]]
     writer.export_data(client_mobile, "output/client_int.csv")
-
+'''
 
 def having_ip():
     import client

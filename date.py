@@ -22,7 +22,7 @@ def generate_date(date_id):
 
 
 def generate_date():
-    start_year = 2016
+    start_year = 2018
     start_month = 1
     start_day = 1
     quarter = 1
