@@ -54,8 +54,8 @@ def generate_output(i_id):
     contract_date = random.randint(365, 720)
     expiration_date = random.randint(contract_date, 1400)
     # expiration_date = mobile.fake.date_between(start_date=contract_date, end_date='now')
-    internet_plan = [i_id, plan[0], plan[1], expiration_date, contract_date]
-    writer.export_data(internet_plan, "output/internet_plans.csv")
+    internet_plan = [i_id+14, plan[0], plan[1], expiration_date, contract_date]
+    writer.export_data(internet_plan, "output/T1-T2/internet_plans.csv")
 
 
 t_one = datetime.date(2018, 1, 1)
@@ -73,21 +73,28 @@ def client_output():
     writer.export_data(client_mobile, "output/client_int.csv")
 '''
 
+
 def having_ip():
     import client
     phone = client.generate_phone()
-    i_id = random.randint(0, 19)
+    i_id = random.randint(14, 20)
     cli_id = random.randint(1000, 2000)
-    contract = random.randint(365, 730)
-    writer.get_row("output/internet_plans.csv", i_id)
+    contract = random.randint(365, 720)
+    writer.get_row("output/T0-T1/internet_plans.csv", i_id)
     mp = [phone,
           cli_id,  # The id itself
-          i_id,
+          i_id+1000,
           contract,  # The date
-          random.randint(contract, 1500),  # Permanence
-          random.choice([20, 30, 50, 100, 150, 200, 250]),  # Price
-          random.choice([" ", 500, 200, 300, 400]),  # Minutes
+          random.randint(contract, 1400),  # Permanence
+          random.choice([100, 150, 200, 250, 300, 350, 400]),  # Price
+          random.choice([" ", 300, 400, 500]),  # Minutes
           ]
-    writer.export_data(mp, "output/having_ip.csv")
+    writer.export_data(mp, "output/T1-T2/having_ip.csv")
 
 
+for i in range(1000):
+    having_ip()
+'''
+for i in range(5):
+    generate_output(i)
+'''

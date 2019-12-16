@@ -17,13 +17,13 @@ def generate_operator(i):
     salary = random.choice(["900", "1000", "1200"])
     # email = fake.email()
     valid = random.choice([0, 1])
-    operator = [i, pesel, fake.name(), salary, valid]
+    operator = [i+250, pesel, fake.name(), salary, valid]
     return operator
 
 
 def new_operators(amount):
     for i in range(amount):
-        writer.export_data(generate_operator(i), "output/operators.csv")
+        writer.export_data(generate_operator(i), "output/T1-T2/operators.csv")
 
 
 def import_operator():
@@ -31,4 +31,4 @@ def import_operator():
     return random.choice(operators)[0]
 
 
-new_operators(100)
+new_operators(150)

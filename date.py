@@ -47,7 +47,7 @@ def generate_date():
                             start_year,
                             calendar.month_name[start_month],
                             date],
-                           "output/date.csv")
+                           "output/T1-T2/date.csv")
 
 
 generate_date()

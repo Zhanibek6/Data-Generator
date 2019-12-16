@@ -16,7 +16,6 @@ def divide(name):
 def main(i):
     client.generate_output(i)
     call.generate_output(i)
-
     call.generate_output(i)
 
 

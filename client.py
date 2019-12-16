@@ -23,7 +23,7 @@ def generate_output(cli_id):
     person = generate_client()
     pesel = general.generate_pesel(person["birthdate"])
     region = random.choice(["Masovia", "Kuyavia", "Podlasie", "Pemrania", "Pomerelia", "Silesia"])
-    person_rows = [cli_id,
+    person_rows = [cli_id+1500,
                    pesel,
                    person["name"],
                    region,
@@ -31,8 +31,8 @@ def generate_output(cli_id):
                    fake.postcode(),
                    fake.street_address(),
                    generate_phone()]
-    writer.export_data(person_rows, "output/client.csv")
+    writer.export_data(person_rows, "output/T1-T2/client.csv")
 
 
-for i in range(2000):
+for i in range(1000):
     generate_output(i)
