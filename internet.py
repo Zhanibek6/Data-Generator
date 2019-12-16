@@ -73,21 +73,21 @@ def client_output():
 def having_ip():
     import client
     phone = client.generate_phone()
-    i_id = random.randint(0, 9)
+    i_id = random.randint(0, 19)
     cli_id = random.randint(0, 1999)
-    contract = cli_id + random.randint(1, 1000)
+    contract = random.randint(1, 1000)
     writer.get_row("output/internet_plans.csv", i_id)
     mp = [phone,
           cli_id,  # The id itself
           i_id,
           contract,  # The date
-          cli_id + random.randint(contract, 1800),  # Permanence
-          random.choice([0, 20, 30, 50, 100]),  # Price
+          cli_id + random.randint(contract, 2000),  # Permanence
+          random.choice([20, 30, 50, 100, 150, 200, 250]),  # Price
           random.choice([" ", 500, 200, 300, 400]),  # Minutes
           ]
     writer.export_data(mp, "output/having_ip.csv")
 
 
-for i in range(20):
-    generate_output(i)
+for i in range(1000):
+    having_ip()
 
