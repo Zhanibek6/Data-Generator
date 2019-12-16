@@ -16,10 +16,7 @@ def divide(name):
 def main(i):
     client.generate_output(i)
     call.generate_output(i)
-    date.generate_date(i)
-    internet.generate_output(i)
     internet.client_output()
-    mobile.generate_output(i)
     mobile.client_output()
 
 '''

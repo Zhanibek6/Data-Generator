@@ -33,6 +33,3 @@ def generate_output(cli_id):
                    generate_phone()]
     writer.export_data(person_rows, "output/client.csv")
 
-
-for i in range(1000):
-    generate_output(i)

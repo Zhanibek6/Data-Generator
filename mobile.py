@@ -86,5 +86,3 @@ def having_mp():
     writer.export_data(mp, "output/having_mp.csv")
 
 
-for i in range(2000):
-    having_mp()

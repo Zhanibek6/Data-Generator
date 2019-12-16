@@ -26,7 +26,7 @@ def generate_date():
     start_month = 1
     start_day = 1
     quarter = 1
-    for i in range(200):
+    for i in range(720):
         if start_day >= 31:
             start_day = 1
             start_month = start_month + 1

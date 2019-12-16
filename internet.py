@@ -88,6 +88,4 @@ def having_ip():
     writer.export_data(mp, "output/having_ip.csv")
 
 
-for i in range(1000):
-    having_ip()
 

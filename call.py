@@ -53,7 +53,3 @@ def answer_call(some_id):
         salary = writer.get_row("output/operators.csv", random.randint(1, 100))[3]
         call = [some_id, client_id, dept_id, tele_id, salary, date, satisfaction, response]
         writer.export_data(call, "output/answer.csv")
-
-
-for i in range(2000):
-    answer_call(i)
