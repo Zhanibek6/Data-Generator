@@ -51,8 +51,9 @@ first = datetime.date(2018, 10, 31)
 def generate_output(mobile_id):
     plan = generate_plan()
     # expiration_date = fake.date_between(start_date=plan[1], end_date='now')
-    expiration_date = random.randint(0, 10)
-    writer.export_data([mobile_id, plan[0], expiration_date, random.randint(0, 10)], "output/mobile_plans.csv")
+    launch_date = random.randint(0, 100)
+    expiration_date = random.randint(launch_date, 120)
+    writer.export_data([mobile_id, plan[0], expiration_date, launch_date], "output/mobile_plans.csv")
 
 
 def client_output():
@@ -84,3 +85,5 @@ def having_mp():
     writer.export_data(mp, "output/having_mp.csv")
 
 
+for i in range(20):
+    generate_output(i)
