@@ -1,9 +1,9 @@
 from faker import Faker
 import random
-import string
 import writer
 import general
 import datetime
+import date
 #   An alphanumeric code generator
 
 
@@ -21,43 +21,57 @@ def generate_plan():
     launch_date = [datetime.date(2016, 6, 6), datetime.date(2017, 7, 7), datetime.date(2018, 8, 8)]
     # TO-DO we need to add launched date just like the prices, minutes, etc...
     name = random.choice(names)
-    price = None
+    # price = None
     minute = None
     mb = None
     date = None
     if name == names[0]:
-        price = prices[0]
+        # price = prices[0]
         minute = minutes[0]
         mb = mbs[0]
         date = launch_date[0]
     elif name == names[1]:
-        price = prices[1]
+        # price = prices[1]
         minute = minutes[1]
         mb = mbs[1]
         date = launch_date[1]
     elif name == names[2]:
-        price = prices[2]
+        # price = prices[2]
         minute = minutes[2]
         mb = mbs[2]
         date = launch_date[2]
 
-    return [name, price, minute, mb, date]
+    return [name, date, minute, mb]
 
 
-plan = generate_plan()
 first = datetime.date(2018, 10, 31)
 
 
-def generate_output():
-    numeric_id = general.generate_id()
-    expiration_date = fake.date_between(start_date=plan[4], end_date='now')
-    writer.export_data([numeric_id, plan[0], plan[1], plan[2], plan[3], expiration_date, plan[4]], "output/mobile_plans.csv")
+def generate_output(mobile_id):
+    plan = generate_plan()
+    # expiration_date = fake.date_between(start_date=plan[1], end_date='now')
+    expiration_date = random.randint(0, 10)
+    writer.export_data([mobile_id, plan[0], expiration_date, random.randint(0, 10)], "output/mobile_plans.csv")
 
 
 def client_output():
+    plan = generate_plan()
     numeric_id = general.generate_id()
-    pesel = general.generate_pesel(fake.date_of_birth())
-    contract = fake.date_between(start_date=plan[4], end_date='now')
+    mb_id = general.generate_id()
+    # pesel = general.generate_pesel(fake.date_of_birth())
+    contract = fake.date_between(start_date=plan[1], end_date='now')
     permanence = fake.date_between(start_date=contract, end_date='now')
-    client_mobile = [numeric_id, pesel, contract, permanence]
+    client_mobile = [numeric_id, mb_id, contract, permanence, plan[2], plan[3]]
     writer.export_data(client_mobile, "output/client_mobile.csv")
+
+
+def having_mp():
+    import client
+    phone = client.generate_phone()
+    mb_id = random.randint(0, 10)
+    writer.get_row("output/mobile_plans.csv", mb_id)
+
+
+
+for i in range(10):
+    generate_output(i)

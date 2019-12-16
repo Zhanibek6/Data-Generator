@@ -7,26 +7,28 @@ fake = Faker()
 operators = []
 
 
-def generate_operator():
-    import main
-    salaries = ["900", "1000", "1200"]
+def generate_operator(i):
+    # import main
     bday = fake.date_of_birth()
     pesel = general.generate_pesel(bday)
-    name = main.divide(fake.name())
-    first = name[0]
-    surname = name[1]
-    salary = random.choice(salaries)
-    email = fake.email()
-    operator = [pesel, first, surname, salary, email]
+    # name = main.divide(fake.name())
+    # first = main.divide(name[0])
+    # surname = main.divide(name[1])
+    salary = random.choice(["900", "1000", "1200"])
+    # email = fake.email()
+    valid = random.choice([0, 1])
+    operator = [i, pesel, fake.name(), salary, valid]
     return operator
 
 
 def new_operators(amount):
     for i in range(amount):
-        writer.export_data(generate_operator(), "output/operators.csv")
+        writer.export_data(generate_operator(i), "output/operators.csv")
 
 
 def import_operator():
     writer.read("output/operators.csv", operators)
     return random.choice(operators)[0]
 
+
+new_operators(10)

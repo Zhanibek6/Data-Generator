@@ -1,1 +1,72 @@
-Id, Name, Price, Minutes, Internet, Expiration date, Launch date
+mb_id, mb_name, mb_expiration_date, mb_launch_date
+
+0,Essential,2018-12-26,2016-06-06
+1,Magneta Plus,2019-02-08,2018-08-08
+2,Magneta Plus,2019-11-03,2018-08-08
+3,Magneta,2019-03-23,2017-07-07
+4,Magneta Plus,2018-10-17,2018-08-08
+5,Essential,2019-04-07,2016-06-06
+6,Magneta Plus,2019-05-04,2018-08-08
+7,Magneta Plus,2019-04-22,2018-08-08
+8,Magneta,2018-03-17,2017-07-07
+9,Magneta,2019-02-23,2017-07-07
+0,Essential,2019-04-17,2016-06-06
+1,Essential,2016-08-18,2016-06-06
+2,Essential,2016-10-12,2016-06-06
+3,Magneta,2019-06-13,2017-07-07
+4,Magneta,2018-11-12,2017-07-07
+5,Magneta Plus,2019-10-12,2018-08-08
+6,Magneta Plus,2019-08-11,2018-08-08
+7,Magneta,2018-10-20,2017-07-07
+8,Magneta Plus,2019-07-01,2018-08-08
+9,Magneta,2019-01-13,2017-07-07
+0,Essential,2017-06-21,2016-06-06
+1,Magneta,2019-07-13,2017-07-07
+2,Essential,2017-09-18,2016-06-06
+3,Essential,2016-06-09,2016-06-06
+4,Essential,2017-01-26,2016-06-06
+5,Magneta,2018-01-04,2017-07-07
+6,Essential,2018-09-16,2016-06-06
+7,Magneta Plus,2019-08-01,2018-08-08
+8,Magneta,2019-03-01,2017-07-07
+9,Essential,2019-05-14,2016-06-06
+0,Magneta Plus,2019-01-21,2018-08-08
+1,Magneta Plus,2018-09-05,2018-08-08
+2,Magneta,2017-07-25,2017-07-07
+3,Magneta Plus,2019-03-15,2018-08-08
+4,Magneta,2018-11-03,2017-07-07
+5,Essential,2018-10-11,2016-06-06
+6,Magneta Plus,2018-10-10,2018-08-08
+7,Magneta,2019-10-04,2017-07-07
+8,Magneta Plus,2018-08-14,2018-08-08
+9,Essential,2019-02-11,2016-06-06
+0,Magneta Plus,2019-08-10,2018-08-08
+1,Magneta Plus,2019-01-14,2018-08-08
+2,Magneta,2017-08-05,2017-07-07
+3,Magneta,2019-04-04,2017-07-07
+4,Magneta Plus,2019-06-14,2018-08-08
+5,Magneta,2019-10-31,2017-07-07
+6,Essential,2019-07-18,2016-06-06
+7,Magneta Plus,2019-04-23,2018-08-08
+8,Magneta Plus,2019-10-10,2018-08-08
+9,Magneta Plus,2019-07-14,2018-08-08
+0,Essential,2,0
+1,Magneta Plus,5,1
+2,Magneta Plus,7,0
+3,Magneta Plus,5,0
+4,Magneta,4,5
+5,Essential,1,7
+6,Essential,9,3
+7,Essential,3,2
+8,Magneta,4,0
+9,Magneta Plus,0,6
+0,Magneta,0,7
+1,Essential,5,3
+2,Magneta,8,3
+3,Magneta,0,5
+4,Magneta,10,2
+5,Magneta,3,0
+6,Magneta Plus,1,1
+7,Essential,5,10
+8,Magneta,3,5
+9,Magneta Plus,4,9

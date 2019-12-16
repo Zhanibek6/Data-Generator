@@ -17,3 +17,9 @@ def read(filename, array):
         csvreader = csv.reader(csvfile)
         for row in csvreader:
             array.append(row)
+
+
+def get_row(filename, row):
+    data = []
+    read(filename, data)
+    return data[row]

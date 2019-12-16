@@ -12,14 +12,14 @@ def divide(name):
     return full_name
 
 
-def main():
-    client.generate_output()
-    call.generate_output()
-    internet.generate_output()
+def main(i):
+    client.generate_output(i)
+    call.generate_output(i)
+    internet.generate_output(i)
     internet.client_output()
-    mobile.generate_output()
+    mobile.generate_output(i)
     mobile.client_output()
 
 
 for i in range(100):
-    main()
+    main(i)

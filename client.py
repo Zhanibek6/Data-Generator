@@ -7,34 +7,31 @@ fake = Faker()
 
 
 def generate_client():
-    return fake.profile()  #  This generates client's name, surname, mail, address, bday and other stuff that we don't need
+    return fake.profile()  #   This generates client's name, surname, mail, address, bday and other stuff that we don't need
 
 
-def generate_phone(country):  # Simple phone number generator
-    code = None
+def generate_phone():  # Simple phone number generator
     number = ""
     length = 9
-    if country == "us":
-        code = "+1"
-        length = "10"
-    elif country == "ru":
-        code = "+7 7"
-    elif country == "pl":
-        code = "+48"
+    code = "+48"
     for i in range(length):
         number = number + str(random.randint(1, 9))
     return code + number
 
 
-def generate_output():
-    import main
+def generate_output(cli_id):
     person = generate_client()
     pesel = general.generate_pesel(person["birthdate"])
-    person_rows = [pesel,
-                   main.divide(person["name"])[0],
-                   main.divide(person["name"])[1],
-                   person["mail"],
-                   person["residence"].replace("\n", " "),
-                   generate_phone("pl")]
+    region = random.choice(["Masovia", "Kuyavia", "Podlasie", "Pemrania", "Pomerelia", "Silesia"])
+    person_rows = [cli_id,
+                   pesel,
+                   person["name"],
+                   region,
+                   fake.city(),
+                   fake.postcode(),
+                   fake.street_address(),
+                   generate_phone()]
     writer.export_data(person_rows, "output/client.csv")
 
+
+generate_output(12)
