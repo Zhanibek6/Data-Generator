@@ -21,12 +21,12 @@ def generate_date(date_id):
 '''
 
 
-def generate_date(date_id):
+def generate_date():
     start_year = 2016
     start_month = 1
-    start_day = date_id+1
+    start_day = 1
     quarter = 1
-    for i in range(100):
+    for i in range(200):
         if start_day >= 31:
             start_day = 1
             start_month = start_month + 1
@@ -41,7 +41,7 @@ def generate_date(date_id):
             start_year = start_year + 1
             quarter = 1
         date = str(start_year) + "-" + str(start_month) + "-" + str(start_day)
-        start_day = start_day + random.randint(1, 4)
+        start_day = start_day + 1
         writer.export_data([i,
                             quarter,
                             start_year,
@@ -50,4 +50,4 @@ def generate_date(date_id):
                            "output/date.csv")
 
 
-generate_date(2)
+generate_date()

@@ -42,15 +42,18 @@ def answer_call():
 
 
 def answer_call(some_id):
-    dept_id = random.choice(["DEPT_SALES", "DEPT_MAIN", "DEPT_SUPPORT", "DEPT_CANCEL", "DEPT_UPGRADE"])
-    client_id = random.randint(0, 10)
-    tele_id = random.randint(0, 7)
-    call = writer.get_row("output/calls.csv", client_id)
-    date = client_id
-    satisfaction = call[1]
-    response = call[2]
-    salary = writer.get_row("output/operators.csv", tele_id)[3]
-    call = [some_id, client_id, dept_id, tele_id, salary, date, satisfaction, response]
-    writer.export_data(call, "output/answer.csv")
+    if some_id != 0:
+        dept_id = random.choice(["DEPT_SALES", "DEPT_MAIN", "DEPT_SUPPORT", "DEPT_CANCEL", "DEPT_UPGRADE"])
+        client_id = random.randint(0, 1400)
+        tele_id = random.randint(0, 1400)
+        call = writer.get_row("output/calls.csv", client_id)
+        date = client_id
+        satisfaction = call[1]
+        response = call[2]
+        salary = writer.get_row("output/operators.csv", random.randint(1, 100))[3]
+        call = [some_id, client_id, dept_id, tele_id, salary, date, satisfaction, response]
+        writer.export_data(call, "output/answer.csv")
 
 
+for i in range(2000):
+    answer_call(i)
