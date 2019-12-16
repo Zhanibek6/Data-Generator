@@ -70,8 +70,8 @@ def client_output():
 def having_mp():
     import client
     phone = client.generate_phone()
-    mb_id = random.randint(0, 10)
-    cli_id = random.randint(0, 10)
+    mb_id = random.randint(0, 19)
+    cli_id = random.randint(0, 1000)
     contract = cli_id + random.randint(1, 1000)
     writer.get_row("output/mobile_plans.csv", mb_id)
     mp = [phone,
@@ -79,7 +79,7 @@ def having_mp():
           cli_id,  # The id itself
           contract,  # The date
           cli_id + random.randint(contract, 2000),
-          random.choice([0, 20, 30, 50, 100]),  # Price
+          random.choice([20, 30, 50, 100, 150, 200, 250]),  # Price
           random.choice([" ", 500, 200, 300, 400]),  # Minutes
           random.choice([" ", 10, 100, 200])  # Internet
           ]
