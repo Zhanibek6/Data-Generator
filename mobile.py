@@ -82,12 +82,10 @@ def having_mp():
           cli_id,  # The id itself
           contract,  # The date
           random.randint(contract, 720),
-          random.choice([20, 30, 50, 100, 150, 200, 250]),  # Price
-          random.choice([" ", 500, 200, 300, 400]),  # Minutes
-          random.choice([" ", 10, 100, 200])  # Internet
+          random.choice([100, 150, 200, 250, 300, 350, 400]),  # Price
+          random.choice([" ", 500, 400, 600, 700]),  # Minutes
+          random.choice([" ", 100, 200, 300])  # Internet
           ]
     writer.export_data(mp, "output/having_mp.csv")
 
 
-for i in range(1000):
-    having_mp()

@@ -16,13 +16,16 @@ def divide(name):
 def main(i):
     client.generate_output(i)
     call.generate_output(i)
-    internet.client_output()
-    mobile.client_output()
 
-'''
+    call.generate_output(i)
+
+
 for i in range(2000):
     main(i)
-'''
+
+for i in range(20):
+    internet.generate_output(i)
+    mobile.generate_output(i)
 
 for i in range(2000):
     mobile.having_mp()

@@ -55,5 +55,3 @@ def answer_call(some_id):
         writer.export_data(call, "output/answer.csv")
 
 
-for i in range(2000):
-    answer_call(i)
