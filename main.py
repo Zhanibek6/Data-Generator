@@ -29,5 +29,5 @@ for i in range(2000):
 
 for i in range(2000):
     mobile.having_mp()
-    internet.having_mp()
+    internet.having_ip()
     call.answer_call(i)
