@@ -50,10 +50,11 @@ def generate_internet_plan():
 
 def generate_output(i_id):
     plan = generate_internet_plan()
-    contract_date = fake.date_between(start_date=plan[3], end_date='now')
+    # contract_date = fake.date_between(start_date=plan[3], end_date='now')
+    contract_date = random.randint(0, 1000)
+    expiration_date = random.randint(contract_date, 2000)
     # expiration_date = mobile.fake.date_between(start_date=contract_date, end_date='now')
-    expiration_date = random.randint(0, 10)
-    internet_plan = [i_id, plan[0], plan[1], expiration_date, random.randint(0, 10)]
+    internet_plan = [i_id, plan[0], plan[1], expiration_date, contract_date]
     writer.export_data(internet_plan, "output/internet_plans.csv")
 
 
@@ -87,6 +88,6 @@ def having_ip():
     writer.export_data(mp, "output/having_ip.csv")
 
 
-for i in range(2000):
-    having_ip()
+for i in range(20):
+    generate_output(i)
 
