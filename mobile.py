@@ -56,13 +56,16 @@ def generate_output(mobile_id):
     writer.export_data([mobile_id, plan[0], expiration_date, launch_date], "output/mobile_plans.csv")
 
 
+t_one = datetime.date(2018, 1, 1)
+
+
 def client_output():
     plan = generate_plan()
     numeric_id = general.generate_id()
     mb_id = general.generate_id()
     # pesel = general.generate_pesel(fake.date_of_birth())
-    contract = fake.date_between(start_date=plan[1], end_date='now')
-    permanence = fake.date_between(start_date=contract, end_date='now')
+    contract = fake.date_between(start_date=plan[1], end_date=t_one)
+    permanence = fake.date_between(start_date=contract, end_date=t_one)
     client_mobile = [numeric_id, mb_id, contract, permanence, plan[2], plan[3]]
     writer.export_data(client_mobile, "output/client_mobile.csv")
 
@@ -72,13 +75,13 @@ def having_mp():
     phone = client.generate_phone()
     mb_id = random.randint(0, 19)
     cli_id = random.randint(0, 1000)
-    contract = cli_id + random.randint(1, 1000)
+    contract = random.randint(1, 365)
     writer.get_row("output/mobile_plans.csv", mb_id)
     mp = [phone,
           mb_id,
           cli_id,  # The id itself
           contract,  # The date
-          cli_id + random.randint(contract, 2000),
+          random.randint(contract, 720),
           random.choice([20, 30, 50, 100, 150, 200, 250]),  # Price
           random.choice([" ", 500, 200, 300, 400]),  # Minutes
           random.choice([" ", 10, 100, 200])  # Internet
@@ -86,3 +89,5 @@ def having_mp():
     writer.export_data(mp, "output/having_mp.csv")
 
 
+for i in range(1000):
+    having_mp()
