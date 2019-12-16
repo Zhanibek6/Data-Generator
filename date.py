@@ -42,7 +42,7 @@ def generate_date():
             quarter = 1
         date = str(start_year) + "-" + str(start_month) + "-" + str(start_day)
         start_day = start_day + 1
-        writer.export_data([i,
+        writer.export_data([i+720,
                             quarter,
                             start_year,
                             calendar.month_name[start_month],

@@ -51,8 +51,8 @@ def generate_internet_plan():
 def generate_output(i_id):
     plan = generate_internet_plan()
     # contract_date = fake.date_between(start_date=plan[3], end_date='now')
-    contract_date = random.randint(0, 1000)
-    expiration_date = random.randint(contract_date, 2000)
+    contract_date = random.randint(365, 720)
+    expiration_date = random.randint(contract_date, 1400)
     # expiration_date = mobile.fake.date_between(start_date=contract_date, end_date='now')
     internet_plan = [i_id, plan[0], plan[1], expiration_date, contract_date]
     writer.export_data(internet_plan, "output/internet_plans.csv")
@@ -77,14 +77,14 @@ def having_ip():
     import client
     phone = client.generate_phone()
     i_id = random.randint(0, 19)
-    cli_id = random.randint(0, 1999)
-    contract = random.randint(1, 365)
+    cli_id = random.randint(1000, 2000)
+    contract = random.randint(365, 730)
     writer.get_row("output/internet_plans.csv", i_id)
     mp = [phone,
           cli_id,  # The id itself
           i_id,
           contract,  # The date
-          random.randint(contract, 720),  # Permanence
+          random.randint(contract, 1500),  # Permanence
           random.choice([20, 30, 50, 100, 150, 200, 250]),  # Price
           random.choice([" ", 500, 200, 300, 400]),  # Minutes
           ]

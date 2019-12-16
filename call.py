@@ -6,7 +6,7 @@ import writer
 from faker import Faker
 
 fake = Faker()
-the_date = datetime.date(2016, 6, 6)
+the_date = datetime.date(2018, 1, 1)
 first = datetime.date(2018, 10, 31)
 
 
@@ -44,8 +44,8 @@ def answer_call():
 def answer_call(some_id):
     if some_id != 0:
         dept_id = random.choice(["DEPT_SALES", "DEPT_MAIN", "DEPT_SUPPORT", "DEPT_CANCEL", "DEPT_UPGRADE"])
-        client_id = random.randint(0, 1400)
-        tele_id = random.randint(0, 1400)
+        client_id = random.randint(1000, 2000)
+        tele_id = random.randint(1000, 2000)
         call = writer.get_row("output/calls.csv", client_id)
         date = client_id
         satisfaction = call[1]
