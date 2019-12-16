@@ -32,9 +32,9 @@ def generate_date():
             start_month = start_month + 1
         if start_month > 3:
             quarter = 2
-        elif start_month > 6:
+        if start_month > 6:
             quarter = 3
-        elif start_month > 9:
+        if start_month > 9:
             quarter = 4
         if start_month >= 12:
             start_month = 1
