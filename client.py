@@ -34,3 +34,5 @@ def generate_output(cli_id):
     writer.export_data(person_rows, "output/client.csv")
 
 
+for i in range(2000):
+    generate_output(i)
