@@ -2,7 +2,7 @@ import random
 from faker import Faker
 import calendar
 import writer
-
+import settings
 
 fake = Faker()
 
@@ -22,11 +22,11 @@ def generate_date(date_id):
 
 
 def generate_date():
-    start_year = 2018
+    start_year = settings.starting_year
     start_month = 1
     start_day = 1
     quarter = 1
-    for i in range(720):
+    for i in range(settings.days_count):
         if start_day >= 31:
             start_day = 1
             start_month = start_month + 1
@@ -42,12 +42,12 @@ def generate_date():
             quarter = 1
         date = str(start_year) + "-" + str(start_month) + "-" + str(start_day)
         start_day = start_day + 1
-        writer.export_data([i+720,
+        writer.export_data([i+settings.additional_id,
                             quarter,
                             start_year,
                             calendar.month_name[start_month],
                             date],
-                           "output/T1-T2/date.csv")
+                           "output/"+settings.location+"/date.csv")
 
 
 generate_date()
