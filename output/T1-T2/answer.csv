@@ -1,3 +1,4 @@
+call_id,client_id,dept_id,tele_id,salary,date,call_satisfaction_grade,call_response_time
 4001,1830,DEPT_SUPPORT,329,1200,711,2,EXCESSIVE
 4002,1993,DEPT_SUPPORT,325,900,192,8,ACCEPTABLE
 4003,2214,DEPT_CANCEL,342,900,120,9,ACCEPTABLE
