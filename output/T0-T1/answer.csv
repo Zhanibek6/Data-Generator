@@ -1,3 +1,4 @@
+call_id,client_id,dept_id,tele_id,salary,date,call_satisfaction_grade,call_response_time
 1,330,DEPT_SALES,209,900,360,8,EXCESSIVE
 2,530,DEPT_SUPPORT,72,1000,493,1,SHORT
 3,746,DEPT_SUPPORT,113,900,706,8,SHORT

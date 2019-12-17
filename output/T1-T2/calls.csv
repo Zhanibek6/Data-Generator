@@ -1,3 +1,4 @@
+call_id,call_satisfaction_grade,call_response_time
 4000,4,SHORT
 4001,4,ACCEPTABLE
 4002,6,SHORT
