@@ -23,3 +23,10 @@ def get_row(filename, row):
     data = []
     read(filename, data)
     return data[row]
+
+
+def count_row(filename):
+    with open(filename, "r") as csvfile:
+        csvreader = csv.reader(csvfile)
+        row_count = sum(1 for row in csvreader)
+    return row_count
