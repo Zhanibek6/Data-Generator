@@ -42,7 +42,11 @@ def answer_call():
 
 def answer_call(some_id):
     if some_id != 0:
-        dept_id = random.choice(["DEPT_SALES", "DEPT_MAIN", "DEPT_SUPPORT", "DEPT_CANCEL", "DEPT_UPGRADE", "DEPT_UPDATE"]) # "DEPT_UPGRADE"])
+        departments = ["DEPT_SALES", "DEPT_MAIN", "DEPT_SUPPORT", "DEPT_CANCEL"]
+        if settings.location == "output/T1-T2/":
+            departments.append("DEPT_UPDATE")
+            departments.append("DEPT_UPGRADE")
+        dept_id = random.choice(departments) # "DEPT_UPGRADE"])
         client_id = writer.get_row(settings.location+"/client.csv",
                                    random.randint(1, writer.count_row(settings.location+"/client.csv")-1))[0]
         tele_id = writer.get_row(settings.location+"/operators.csv",
@@ -71,7 +75,7 @@ def answer_call(some_id):
 
 
 #
-for i in range(6001):
+for i in range(4001):
     answer_call(i)
 
 
