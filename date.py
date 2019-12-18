@@ -22,12 +22,30 @@ def generate_date(date_id):
 
 
 def generate_date():
+    '''
+    months = {v: k for k, v in enumerate(calendar.month_abbr)}
+    if settings.location == "output/T1-T2/":
+        previous = writer.get_row("output/T0-T1/date.csv", writer.count_row("output/T0-T1/date.csv")-1)
+        additional_id = previous[0]
+        quarter = previous[1]
+        start_year = previous[2]
+        start_month = months[previous[3][:3]]
+        start_day = previous[4]
+    else:
+    '''
     start_year = settings.starting_year
-    start_month = 1
-    start_day = 1
+    start_month = 3
+    start_day = 17
     quarter = 1
+    additional_id = 720
     for i in range(settings.days_count):
-        if start_day >= 31:
+        if start_month == 2:
+            days = 28
+        elif (start_month % 2) == 0:
+            days = 30
+        else:
+            days = 31
+        if start_day >= days:
             start_day = 1
             start_month = start_month + 1
         if start_month > 3:
@@ -42,7 +60,7 @@ def generate_date():
             quarter = 1
         date = str(start_year) + "-" + str(start_month) + "-" + str(start_day)
         start_day = start_day + 1
-        writer.export_data([i+settings.additional_id,
+        writer.export_data([i+additional_id,
                             quarter,
                             start_year,
                             calendar.month_name[start_month],
