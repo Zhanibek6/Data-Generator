@@ -1,4 +1,4 @@
-call_id,client_id,dept_id,tele_id,salary,date,call_satisfaction_grade,call_response_time
+call_id,cli_id,dept_id,tele_id,salary,date,call_satisfaction_grade,call_response_time
 1,857,DEPT_SALES,114,1000,476,9,3
 2,945,DEPT_SUPPORT,193,1200,329,3,5
 3,1446,DEPT_MAIN,83,900,420,2,2
@@ -3998,4 +3998,3 @@ call_id,client_id,dept_id,tele_id,salary,date,call_satisfaction_grade,call_respo
 3997,184,DEPT_SUPPORT,126,1000,348,8,7
 3998,1362,DEPT_SALES,34,900,584,3,0
 3999,1199,DEPT_SUPPORT,196,1000,506,9,1
-4000,346,DEPT_MAIN,216,1200,195,9,9
