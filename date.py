@@ -60,12 +60,12 @@ def generate_date():
             quarter = 1
         date = str(start_year) + "-" + str(start_month) + "-" + str(start_day)
         start_day = start_day + 1
-        writer.export_data([i+additional_id,
+        writer.export_data([i + additional_id,
                             quarter,
                             start_year,
                             calendar.month_name[start_month],
                             date],
-                           settings.location+"/date.csv")
+                           settings.location + "/date.csv")
 
 
 generate_date()
